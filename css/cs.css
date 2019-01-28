@@ -1,0 +1,355 @@
+.background {
+  background: url(/img/cs_banner.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: #00033a;
+  font-weight: 900;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+}
+
+.intro h1 {
+  font-size: 2em;
+}
+
+.background h1 {
+  animation: fadein5 1.5s;
+  height: 100%;
+  margin: -5vh 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 15px;
+  line-height: 0.85;
+  font-family: "Muli", sans-serif;
+  position: absolute;
+  text-align: center;
+  font-weight: 900;
+  color: #94e7f5;
+  font-size: 16vw;
+  text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.158);
+}
+
+.scroll {
+  letter-spacing: 2px;
+  font-family: "Muli", sans-serif;
+  position: absolute;
+  color: #00033a;
+  font-weight: 900;
+  bottom: 7%;
+  width: 100%;
+  z-index: 12;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.scroll-line {
+  position: absolute;
+  height: 50px;
+  border-right: 2px solid #00033a;
+  z-index: 3;
+  left: 50%;
+  bottom: 0;
+  transition: 0.2s;
+}
+
+.presentation {
+  font-family: "Muli", sans-serif;
+  padding: 9vw 20vw 10vw 20vw;
+  text-align: center;
+  display: flex;
+}
+
+.presentation h1 {
+  font-size: 38px;
+  color: #00033a;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.presentation p {
+  width: 75%;
+  padding-left: 4vw;
+  line-height: 1.6;
+  font-size: 23px;
+  text-align: left;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+.cslaptop {
+  width: 100%;
+  padding: 5vw 0;
+  text-align: center;
+  background-color: #d8eef2;
+}
+
+.cslaptop img {
+  width: 60vw;
+}
+
+.cslaptoptext {
+  text-align: left;
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.cslaptoptext p {
+  margin-top: -1vh;
+}
+
+.csdisplay {
+  height: 30vw;
+  background: url(/img/cs_ip.jpg) no-repeat;
+  background-size: 65%;
+  background-position: center;
+  text-align: center;
+  padding: 10vh 0;
+  margin: 0;
+}
+
+.csdisplay img {
+  width: 75%;
+}
+
+h2 a {
+  text-decoration: none;
+  font-size: 1vw;
+  color: #00033a;
+}
+
+.csphone {
+  z-index: -1;
+  position: absolute;
+  background: #d8eef2;
+  left: 20%;
+  margin-top: 1324px;
+  display: inline-block;
+  width: 35vw;
+  height: 35.5vw;
+}
+
+.csphoneimg {
+  position: relative;
+  left: 25%;
+  width: 23%;
+  margin-top: 2.5vw;
+}
+
+.cstext {
+  margin-top: 5vw;
+  display: inline-block;
+  width: 14%;
+  position: absolute;
+  right: 20%;
+}
+
+.cstext h1 {
+  font-size: 2vw;
+}
+
+.cstext p {
+  font-size: 1.05vw;
+}
+
+.cspersonalities {
+  text-align: center;
+  margin: 5vw 0;
+}
+
+.cspersonalities img {
+  width: 70%;
+}
+
+.csbreak {
+  background: url(/img/cs_interior_pic.jpg) no-repeat;
+  height: 80vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.csportrait {
+  margin: 10vw 0 5vw;
+  text-align: center;
+}
+
+.csportrait img {
+  width: 65%;
+}
+
+.csportrait .text {
+  padding-top: 5vh;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  width: 50%;
+}
+
+.csportrait .text h1 {
+  font-size: 2vw;
+}
+
+.csportrait .text p {
+  margin-top: -1vh;
+  font-size: 1.05vw;
+}
+
+.footerimage h1 {
+  color: #94e7f5;
+  font-size: 115px;
+}
+
+.footerimage:hover {
+  background: url(/img/cs_footer.jpg) 50%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1068px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  .background {
+    background-position: 65%;
+  }
+
+  .background h1 {
+    font-size: 20vw;
+    height: 100vh;
+    line-height: 1.2;
+  }
+
+  .scroll {
+    margin-bottom: 55px;
+    bottom: 0;
+  }
+
+  .cslaptop img {
+    width: 80%;
+  }
+
+  .cslaptoptext {
+    padding: 0;
+    width: 80%;
+  }
+
+  .cslaptoptext h1 {
+    font-size: 5vw;
+  }
+
+  .cslaptoptext p {
+    font-size: 2.5vw;
+    margin-top: -1vh;
+  }
+
+  .csdisplay {
+    background: url(/img/csmobile.jpg) no-repeat;
+    height: 110vw;
+    background-size: 100%;
+    padding: 0;
+    width: 65%;
+    margin: 20vw auto 0 auto;
+  }
+
+  .csbreak {
+    height: 50vh;
+    background-position: 50%;
+  }
+
+  .cstext {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    right: unset;
+    position: relative;
+  }
+
+  .cstext h1 {
+    font-size: 5vw;
+  }
+
+  .cstext p {
+    margin-top: -1vh;
+    font-size: 2.5vw;
+  }
+
+  .csphoneimg {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+    left: 0;
+  }
+
+  .csphone {
+    margin-top: 1100px;
+    z-index: -1;
+    height: 70vw;
+    width: 60%;
+    display: block;
+  }
+
+  .cspersonalities {
+    display: block;
+    right: 0;
+  }
+
+  .csportrait .text {
+    position: relative;
+    width: 80%;
+    left: 11%;
+    margin: 0;
+    padding: 5vh 0;
+  }
+
+  .csportrait img {
+    width: 85%;
+  }
+
+  .csportrait .text h1 {
+    font-size: 5vw;
+  }
+
+  .csportrait .text p {
+    margin-top: -1vh;
+    font-size: 2.5vw;
+  }
+
+  .footerimage {
+    background: url(/img/cs_footer.jpg) !important;
+    background-position: 50% !important;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 1068px) {
+  .background h1 {
+    font-size: 15vw;
+  }
+
+  .csphone {
+    display: none;
+  }
+
+  .cspersonalities {
+    margin: 10vw 0;
+  }
+}

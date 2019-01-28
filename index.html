@@ -1,0 +1,375 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sonia Polyzos Design & Illustration</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/about.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="rellax.min.js"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      html,
+      body {
+        overflow-y: hidden;
+      }
+
+      body {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="loading-page">
+        <div class="counter"><h1>0</h1></div>
+      </div>
+    </div>
+    <header>
+      <div class="logo"><a href="index.html">sonıa.</a></div>
+      <div class="menu" onclick="openNav()">info</div>
+    </header>
+
+    <div id="nav" class="nav-overlay">
+      <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">x</a>
+      <div id="nav" class="nav-content">
+        <a href="https://www.instagram.com/sonyzos/" target="_blank"
+          >Instagram</a
+        >
+        <a
+          href="https://www.linkedin.com/in/sonia-polyzos-8b454a121"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://www.behance.net/soniapolyzos" target="_blank"
+          >Behance</a
+        >
+      </div>
+
+      <div class="intro">
+        <h1>want to work together or just say a quick hello?</h1>
+      </div>
+      <div class="buttonwrapper">
+        <a href="mailto:soniapolyzos22@gmail.com">
+          <div class="button">contact me</div></a
+        >
+      </div>
+      <div class="bio">
+        <h1>
+          happy you're here. i'm sonia and i thought i'd tell you a bit more
+          about myself.
+        </h1>
+        <p>
+          I’m Sonia, a graphic designer and illustrator living in the DMV area.
+          I graduated from the University of Maryland in 2016 with a BA in
+          Studio Art, concentrating in Graphic Design. Some previous clients of
+          mine include Stanford, National Wildlife Federation, World Justice
+          Project and many other wonderful non-profits and people passionate
+          about the world we live in today.<br /><br />
+          Currently I’m working as a contractor and freelancer. I’m looking for
+          remote work opportunities that cover a wide array of design work
+          including: UX/UI, editorial, print and product design. Collaborating,
+          starting new projects, or just a simple conversation are some hobbies
+          of mine, so hit me up and let’s talk! If we’re in the same area, let’s
+          sit down and have a cup of coffee.
+        </p>
+      </div>
+      <footer>
+        &copy 2019 |
+        <a href="http://datnguyen.io" target="_blank">
+          Coded by my ❤️ <font color="#01b435">dat</font>nguyen
+        </a>
+      </footer>
+    </div>
+    <nav>
+      <ul>
+        <li
+          class="navItem active rellax"
+          id="stanford_label"
+          style="color: #bfe6d4"
+        >
+          stanford
+        </li>
+        <li class="navItem" id="ihep_label" style="color: #ffd3ac">ihep</li>
+        <li class="navItem" id="nwf_label" style="color: #abf293">nwf</li>
+        <li class="navItem" id="pearl_label" style="color: #f5e964">
+          pearl contracting
+        </li>
+        <li class="navItem" id="masonry_label" style="color: #fcd361da">
+          masonry
+        </li>
+        <li class="navItem" id="cs_label" style="color: #9fe6f3;">
+          capitol standard
+        </li>
+      </ul>
+    </nav>
+    <div class="navbar"></div>
+    <div class="indicator">
+      <ul>
+        <li><a href="#stanford" class="indicator focus">01</a></li>
+        <li style="top: 42.5%"><a href="#ihep" class="indicator">02</a></li>
+        <li style="top: 47%"><a href="#nwf" class="indicator">03</a></li>
+        <li style="top: 51.5%"><a href="#pearl" class="indicator">04</a></li>
+        <li style="top: 56%"><a href="#masonry" class="indicator">05</a></li>
+        <li style="top: 60.5%"><a href="#cs" class="indicator">06</a></li>
+      </ul>
+    </div>
+
+    <div id="container" class="dragscroll">
+      <div id="projects">
+        <div class="box one" id="stanford">
+          <div class="wrapper">
+            <div class="tag"><h1>illustration + web, 2017-2018</h1></div>
+            <a href="stanford.html">
+              <img
+                src="/img/stanford_banner.jpg"
+                class="stanfordbg bg"
+                id="stanford_label"
+              />
+              <img
+                src="/img/stanfordfocus.png"
+                id="stanford_label"
+                class="standfordfocus focus"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="box two" id="ihep">
+          <div class="wrapper">
+            <div class="tag"><h1>branding, 2018</h1></div>
+            <a href="ihep.html">
+              <img class="ihepbg bg" src="/img/banner.png" id="ihep_label" />
+              <img
+                class="ihepfocus focus"
+                src="/img/ihepfocus.png"
+                id="ihep_label"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="box three" id="nwf">
+          <div>
+            <div class="tag"><h1>print + web, 2016-2018</h1></div>
+            <a href="nwf.html">
+              <img src="/img/nwfbanner.png" class="nwfbg bg" id="nwf_label" />
+              <img
+                class="nwffocus focus"
+                src="/img/nwffocus.png"
+                id="nwf_label"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="box four" id="pearl">
+          <div>
+            <div class="tag"><h1>branding + web, 2018</h1></div>
+            <a href="pearl.html">
+              <img
+                src="/img/pearl_background.jpg"
+                class="pearlbg bg"
+                id="pearl_label"
+              />
+              <img
+                src="/img/pearlfocus.png"
+                class="pearlfocus focus"
+                id="pearl_label"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="box five" id="masonry">
+          <div>
+            <div class="tag"><h1>print + branding, 2018</h1></div>
+            <a href="masonry.html">
+              <img
+                src="/img/masonry_banner.jpg"
+                class="masonrybg bg"
+                id="masonry_label"
+              />
+              <img
+                class="masonryfocus focus"
+                src="/img/masonryfocus.png"
+                id="masonry_label"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="box six" id="cs">
+          <div>
+            <div class="tag"><h1>illustration, 2016</h1></div>
+            <a href="cs.html">
+              <img src="/img/cs_banner.jpg" class="csbg bg" id="cs_label" />
+              <img src="/img/csfocus.png" class="csfocus focus" id="cs_label" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="dragscroll.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+      window.location = "#projects";
+      $("#container").on("scroll", function() {
+        $(".box").each(function(i) {
+          if ($(this).offset().left <= 980) {
+            $("li.active").removeClass("active");
+            $("li")
+              .eq(i)
+              .addClass("active");
+          }
+        });
+      });
+
+      $("#container").on("scroll", function() {
+        $(".box").each(function(i) {
+          if ($(this).offset().left <= 980) {
+            $("li a.focus").removeClass("focus");
+            $("li a")
+              .eq(i)
+              .addClass("focus");
+          }
+        });
+      });
+
+      $(".bg").click(function() {
+        var x = this;
+        if ($(window).width() > 1224) {
+          setTimeout(function() {
+            $(x).addClass("fullscreen");
+          }, 600);
+        } else {
+          setTimeout(function() {
+            $("html").fadeOut(200);
+          }, 400);
+        }
+      });
+
+      $("a").click(function(e) {
+        e.preventDefault();
+        var goTo = this.getAttribute("href");
+
+        setTimeout(function() {
+          window.location = goTo;
+        }, 1100);
+      });
+
+      $(".bg").on("click", function() {
+        $("nav, .indicator, .tag").addClass("hidden");
+        $(".focus").hide();
+        $(this).css("opacity", "1");
+      });
+
+      $(".bg").click(function() {
+        $(this)[0].scrollIntoView({
+          behavior: "smooth",
+          block: "center"
+        });
+      });
+
+      $(".bg, .focus")
+        .on("mouseover", function() {
+          var w = this.id;
+          $("li.active").removeClass("active");
+          if ($("#" + w).hasClass("active")) {
+            return false;
+          } else {
+            $("#" + w).addClass("active");
+          }
+        })
+        .on("mouseleave", function() {
+          var w = this.id;
+          $(".box").each(function(i) {
+            if ($(this).offset().left <= 980) {
+              $("li.active").removeClass("active");
+              $("li")
+                .eq(i)
+                .addClass("active");
+            }
+          });
+        });
+
+      $(document).ready(function() {
+        if (sessionStorage.getItem("dontLoad") == null) {
+          window.location = "#cs";
+          setTimeout(function() {
+            document.getElementById("projects").scrollIntoView({
+              block: "start",
+              behavior: "smooth"
+            });
+            sessionStorage.setItem("dontLoad", "true");
+          }, 6000);
+        } else {
+          setTimeout(function() {
+            document.getElementById("projects").scrollIntoView({
+              block: "start",
+              behavior: "smooth"
+            });
+            sessionStorage.setItem("dontLoad", "true");
+          }, 700);
+        }
+      });
+      $(document).ready(function() {
+        var counter = 0;
+        var c = 0;
+        if (sessionStorage.getItem("dontLoad") == null) {
+          var i = setInterval(function() {
+            $(".preloader, .loading-page, .counter h1, body").show();
+            $(".loading-page .counter h1").html(c);
+            $(".loading-page").css("width", c + "%");
+            counter++;
+            c++;
+            if (counter === 101) {
+              clearInterval(i);
+              $(".preloader").fadeOut(800);
+            }
+            sessionStorage.setItem("dontLoad", "true");
+          }, 50);
+        } else {
+          $("body").fadeIn(800);
+        }
+      });
+
+      $(document).ready(function() {
+        if (
+          $(window).width() < 1024 &&
+          window.innerHeight > window.innerWidth
+        ) {
+          $(".stanfordbg").attr("src", "/img/stanford_mobile.jpg");
+          $(".ihepbg").attr("src", "/img/ihep_mobile.jpg");
+          $(".nwfbg").attr("src", "/img/nwf_mobile.jpg");
+          $(".pearlbg").attr("src", "/img/pearl_mobile.jpg");
+          $(".masonrybg").attr("src", "/img/masonry_mobile.jpg");
+          $(".csbg").attr("src", "/img/cs_mobile.jpg");
+        }
+      });
+    </script>
+  </body>
+</html>

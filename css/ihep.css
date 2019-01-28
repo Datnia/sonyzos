@@ -1,0 +1,346 @@
+html,
+body {
+  margin: 0 auto;
+  font-family: "Muli", sans-serif;
+  overflow-x: hidden;
+}
+
+.background {
+  background: url(/img/banner.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.background h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -5vh 0 0;
+  animation: fadein5 1.5s;
+  width: 100%;
+  height: 100%;
+  font-family: "Muli", sans-serif;
+  position: absolute;
+  letter-spacing: 30px;
+  text-align: center;
+  font-weight: 900;
+  color: #ffd3ac;
+  font-size: 24vw;
+  overflow: hidden;
+  text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.158);
+}
+
+.scroll {
+  letter-spacing: 2px;
+  font-family: "Muli", sans-serif;
+  position: absolute;
+  color: #00033a;
+  font-weight: 900;
+  bottom: 0;
+  margin-bottom: 55px;
+  width: 100%;
+  z-index: 12;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.scroll-line {
+  position: absolute;
+  height: 50px;
+  border-right: 2px solid #00033a;
+  z-index: 3;
+  left: 50%;
+  bottom: 0;
+  transition: 0.2s;
+}
+
+.presentation {
+  font-family: "Muli", sans-serif;
+  padding: 9vw 20vw 10vw 20vw;
+  text-align: center;
+  display: flex;
+}
+
+.presentation h1 {
+  font-size: 38px;
+  color: #00033a;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.presentation p {
+  width: 75%;
+  padding-left: 4vw;
+  line-height: 1.6;
+  font-size: 23px;
+  text-align: left;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.display1 {
+  background: url(/img/ihepdisplay1.png) no-repeat 50% 50%;
+  background-size: 60vw;
+  height: 50vw;
+}
+
+.display1bg {
+  background-color: #ffeede;
+}
+
+.display2 {
+  padding: 5vw 0;
+  position: relative;
+  background: url(/img/ihepdisplay2.png) no-repeat 15%;
+  background-size: 55vw;
+}
+
+.display2 img {
+  position: relative;
+  width: 30vw;
+  margin-left: 65vw;
+}
+
+.ihepreports {
+  width: 50%;
+  margin-top: -12vw;
+  padding: 0 25vw 3vw 15vw;
+}
+
+.ihepreports h1 {
+  margin-bottom: -0.5vw;
+  letter-spacing: 2px;
+  font-size: 2vw;
+  font-weight: 900;
+  color: #00033a;
+}
+
+.ihepreports p {
+  font-size: 1.05vw;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+  padding-bottom: 3vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ihepbreak {
+  background: url(/img/ihepinterior.png) no-repeat;
+  background-size: cover;
+  height: 80%;
+  background-attachment: fixed;
+}
+
+.anniversary {
+  padding: 5vw 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.anniversary .text {
+  padding: 0 15vw 0;
+  width: 100%;
+}
+
+.anniversary h1 {
+  font-weight: 900;
+  font-size: 2vw;
+  letter-spacing: 2px;
+  color: #00033a;
+}
+
+.anniversary p {
+  width: 70%;
+  margin-top: -0.5vw;
+  font-size: 1.05vw;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+  font-family: "Montserrat", sans-serif;
+}
+
+.anniversary .phonesquare {
+  margin-top: 672px;
+  z-index: -1;
+  position: absolute;
+  background-color: #ffeede;
+  height: 35vw;
+  width: 30vw;
+  right: 15%;
+}
+
+.anniversary .ihep-phone {
+  position: absolute;
+  right: 11%;
+  width: 35vw;
+}
+
+.anniversary .logos {
+  margin-top: 20vh;
+  position: relative;
+  left: 14%;
+  width: 30%;
+  height: 28vw;
+}
+
+.footerimage:hover {
+  background: url(/img/ihepfooter.png) 50%;
+  cursor: pointer;
+}
+
+.footerimage h1 {
+  font-size: 115px;
+  color: #ffd3ac;
+}
+
+.footerimage p {
+  line-height: 1.6;
+}
+
+@media only screen and (max-width: 1025px) {
+  body,
+  html {
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .background {
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .background h1 {
+    font-size: 40vw;
+  }
+
+  .display1 {
+    height: 70vw;
+    background-size: 100%;
+    left: 0;
+    margin: 0;
+  }
+
+  .display1 {
+    background-size: 80%;
+    position: relative;
+    left: -2%;
+  }
+
+  .display2 img {
+    width: 62%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+  }
+
+  .display2 {
+    text-align: center;
+    background-size: 90%;
+    background-position: 50% 100%;
+    height: 150vw;
+  }
+
+  .display2 img:nth-child(1) {
+    width: 60%;
+  }
+
+  .ihepreports {
+    display: block;
+    padding: 0;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 7vh;
+  }
+
+  .ihepreports h1 {
+    font-size: 5vw;
+  }
+
+  .ihepreports p {
+    font-size: 2.5vw;
+  }
+
+  .ihepbreak {
+    height: 50%;
+    background-position: 50%;
+    width: 100%;
+  }
+
+  .anniversary .ihep-phone {
+    height: 85vw;
+    display: block;
+    position: relative;
+    width: 60vw;
+    order: -2;
+    right: unset;
+    margin: 0 auto;
+  }
+
+  .anniversary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .anniversary .logos {
+    display: block;
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    left: unset;
+    height: auto;
+  }
+
+  .anniversary .phonesquare {
+    display: block;
+    width: 50%;
+    height: 55vw;
+    right: 26%;
+  }
+
+  .anniversary .text {
+    position: relative;
+    order: 2;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .anniversary h1 {
+    font-size: 5vw;
+  }
+
+  .anniversary p {
+    font-size: 2.5vw;
+    width: 100%;
+    margin-top: -1vh;
+  }
+
+  .footerimage {
+    background: url(/img/ihepfooter.png) !important;
+    background-position: 50% 0 !important;
+  }
+
+  .footerimage p {
+    margin: 0;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1025px) {
+  .background h1 {
+    font-size: 25vw;
+  }
+}

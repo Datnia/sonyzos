@@ -1,0 +1,353 @@
+.background {
+  background: url(/img/stanford_banner.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100vw !important;
+}
+
+h1 {
+  color: #00033a;
+  font-weight: 900;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+}
+
+.intro h1 {
+  font-size: 2em;
+}
+
+.background h1 {
+  height: 100%;
+  animation: fadein4 1.5s;
+  letter-spacing: 15px;
+  line-height: 0.85;
+  width: 100%;
+  font-family: "Muli", sans-serif;
+  position: absolute;
+  margin: -5vh 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 900;
+  color: #bfe6d4;
+  opacity: 0.4;
+  font-size: 20vw;
+  text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.158);
+}
+
+.scroll {
+  letter-spacing: 2px;
+  font-family: "Muli", sans-serif;
+  position: absolute;
+  color: #00033a;
+  font-weight: 900;
+  bottom: 0;
+  margin-bottom: 55px;
+  width: 100%;
+  z-index: 12;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.scroll-line {
+  position: absolute;
+  height: 50px;
+  border-right: 2px solid #00033a;
+  z-index: 3;
+  left: 50%;
+  bottom: 0;
+  transition: 0.2s;
+}
+
+.presentation {
+  font-family: "Muli", sans-serif;
+  padding: 9vw 20vw 10vw 20vw;
+  text-align: center;
+  display: flex;
+}
+
+.presentation h1 {
+  font-size: 38px;
+  color: #00033a;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.presentation p {
+  width: 75%;
+  padding-left: 4vw;
+  line-height: 1.6;
+  font-size: 23px;
+  text-align: left;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+.stanfordgifbg {
+  background-color: #bfe6d4;
+  padding: 5vw 0 3vw;
+}
+
+.stanfordgif {
+  width: 60vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.stanfordreview {
+  margin: 5vw auto;
+}
+
+.slider img {
+  width: 60vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.reviewtext {
+  width: 52%;
+  position: relative;
+  display: block;
+  margin: 3vw auto 0;
+}
+
+.reviewtext p {
+  margin-top: -1vw;
+  font-size: 1.05vw;
+}
+
+.reviewtext h1 {
+  font-size: 2vw;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  margin-top: -20vh;
+}
+
+.prev {
+  left: 10%;
+}
+
+.next {
+  right: 10%;
+}
+
+.stanfordbreak {
+  background: url(/img/stanford_interior_pic.jpg) no-repeat;
+  height: 80vh;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.tablet {
+  margin-top: 10vw;
+}
+
+.tablettext {
+  z-index: 2;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  position: absolute;
+  left: 18%;
+  width: 13vw;
+  display: inline-block;
+}
+
+.tablettext h1 {
+  font-size: 2vw;
+}
+
+.tablettext p {
+  margin-top: -1vw;
+  font-size: 1.05vw;
+}
+
+.tabletimg {
+  z-index: 3;
+  margin-left: 13vw;
+  position: relative;
+  width: 35vw;
+  left: 32%;
+}
+
+.tabletsquare {
+  z-index: 0;
+  margin-top: 1550px;
+  right: 18%;
+  display: inline-block;
+  position: absolute;
+  height: 40vw;
+  width: 39vw;
+  background-color: #bfe6d4;
+}
+
+.stanfordillustrations {
+  text-align: center;
+  margin: 10vh 2vw 15vh 2vw;
+}
+
+.footerimage h1 {
+  color: #bfe6d4;
+  font-size: 115px;
+}
+
+.footerimage:hover {
+  background: url(/img/stanford_footer.jpg) 50%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1025px) {
+  body {
+    overflow-x: hidden;
+  }
+  img {
+    max-width: 100% !important;
+  }
+
+  .background {
+    background-position: 20%;
+    background-size: cover;
+  }
+
+  .background h1 {
+    height: 100vh;
+    font-size: 20vw;
+  }
+
+  .stanfordgif {
+    width: 90%;
+  }
+
+  .stanfordreview {
+    margin: 15vw 0;
+  }
+
+  .prev {
+    left: 3%;
+  }
+
+  .next {
+    right: 3%;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    margin-top: -11vh;
+  }
+
+  .reviewtext {
+    width: 80%;
+    margin-top: 10vw;
+  }
+
+  .reviewtext h1 {
+    font-size: 5vw;
+  }
+
+  .reviewtext p {
+    font-size: 2.5vw;
+  }
+
+  .stanfordbreak {
+    background-position: 20%;
+    height: 50vh;
+  }
+
+  .tablet {
+    margin: 20vw 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tabletimg {
+    position: relative;
+    left: unset;
+    display: block;
+    width: 60vw;
+    height: 75vw;
+    margin: 0 auto;
+    order: -2;
+  }
+
+  .tabletsquare {
+    order: -1;
+    position: absolute;
+    z-index: -1;
+    width: 70%;
+    height: 70vw;
+    right: 0;
+    left: 0;
+    display: block;
+    margin: 1300px auto 0;
+
+    text-align: center;
+  }
+
+  .tablettext {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 5vw 0;
+    left: unset;
+  }
+
+  .tablettext h1 {
+    font-size: 5vw;
+  }
+
+  .tablettext p {
+    display: block;
+    font-size: 2.5vw;
+  }
+
+  .stanfordillustrations {
+    margin: 0 7vw -4vh 7vw;
+  }
+  .stanfordillustrations img {
+    width: 100% !important;
+  }
+
+  .slider {
+    margin: 0 12vw;
+  }
+
+  .footerimage {
+    background: url(/img/stanford_footer.jpg) !important;
+    background-position: 50% !important;
+    background-size: cover !important;
+  }
+
+  .footerimage h1 {
+    font-size: 12vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .tabletsquare {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (orientation: landscape) {
+  .background h1 {
+    font-size: 18vw;
+  }
+}

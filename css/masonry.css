@@ -1,0 +1,273 @@
+html,
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  overflow-x: hidden;
+}
+
+.background {
+  background: url(/img/masonry_banner.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: #00033a;
+  font-weight: 900;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+}
+
+.intro h1 {
+  font-size: 2em;
+}
+
+.background h1 {
+  height: 100%;
+  margin: -5vh 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadein6 1.5s;
+  letter-spacing: 15px;
+  line-height: 0.85;
+  width: 100%;
+  font-family: "Muli", sans-serif;
+  position: absolute;
+  text-align: center;
+  font-weight: 900;
+  color: #fff2bb;
+  font-size: 19vw;
+  text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.158);
+  opacity: 0.6;
+}
+
+.scroll {
+  letter-spacing: 2px;
+  font-family: "Muli", sans-serif;
+  position: absolute;
+  color: #00033a;
+  font-weight: 900;
+  bottom: 0;
+  margin-bottom: 55px;
+  width: 100%;
+  z-index: 12;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.scroll-line {
+  position: absolute;
+  height: 50px;
+  border-right: 2px solid #00033a;
+  z-index: 3;
+  left: 50%;
+  bottom: 0;
+  transition: 0.2s;
+}
+
+.presentation {
+  font-family: "Muli", sans-serif;
+  padding: 9vw 20vw 10vw 20vw;
+  text-align: center;
+  display: flex;
+}
+
+.presentation h1 {
+  font-size: 38px;
+  color: #00033a;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.presentation p {
+  width: 75%;
+  padding-left: 4vw;
+  line-height: 1.6;
+  font-size: 23px;
+  text-align: left;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+.masonrybanner {
+  text-align: center;
+  background-color: #fff5d1;
+  padding: 5vw 0;
+}
+
+.masonrybanner img {
+  position: relative;
+  width: 40vw;
+}
+
+.masonrybooth {
+  padding: 10vw 0;
+  width: 100%;
+  text-align: center;
+}
+
+.masonrybooth img:nth-child(1) {
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+  width: 40%;
+}
+
+.masonrybooth img:nth-child(2) {
+  position: relative;
+  width: 30%;
+}
+
+.masonrybreak {
+  background: url(/img/masonry_interior_pic.jpg) no-repeat;
+  height: 80vh;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.takeaway {
+  padding: 6vw 0;
+  height: 50vw;
+}
+
+.takeawaytext {
+  margin-top: 5vw;
+  position: absolute;
+  left: 15%;
+  display: inline-block;
+  width: 13vw;
+}
+
+.takeawaytext p {
+  margin-top: -1vh;
+  font-size: 1.05vw;
+}
+
+.takeawaytext h1 {
+  font-size: 2vw;
+}
+
+.masonimg {
+  display: inline-block;
+  position: absolute;
+  width: 40vw;
+  right: 14%;
+}
+
+.masonrysquare {
+  margin-top: 1900px;
+  right: 10%;
+  z-index: -1;
+  position: absolute;
+  display: inline-block;
+  height: 33vw;
+  width: 45vw;
+  background-color: #fff5d1;
+}
+
+.footerimage:hover {
+  transition: 0.5s;
+  background: url(/img/masonry_footer.jpg) 50%;
+  cursor: pointer;
+}
+
+.footerimage h1 {
+  color: #fff2bb;
+  font-size: 115px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .background {
+    height: 100vh;
+    background-position: 50%;
+  }
+
+  .background h1 {
+    height: 100vh;
+    font-size: 20vw;
+  }
+
+  .masonrybanner img {
+    width: 75%;
+  }
+
+  .masonrybooth {
+    padding-top: 15vw;
+  }
+
+  .masonrybooth img:nth-child(1) {
+    margin: 0;
+    padding-bottom: 5vh;
+    width: 70%;
+  }
+
+  .masonrybooth img:nth-child(2) {
+    margin-top: 0;
+    width: 65%;
+  }
+
+  .masonrybreak {
+    height: 50vh;
+    background-position: 50%;
+  }
+
+  .takeaway {
+    padding: 10vw 0;
+    height: 125vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .masonrysquare {
+    display: none;
+  }
+
+  .masonimg {
+    position: relative;
+    width: 70%;
+    right: unset;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .takeawaytext {
+    order: 2;
+    width: 80%;
+    position: relative;
+    display: block;
+    left: unset;
+    margin: 0 auto;
+  }
+
+  .takeawaytext h1 {
+    font-size: 5vw;
+  }
+
+  .takeawaytext p {
+    font-size: 2.5vw;
+  }
+
+  .footerimage {
+    background: url(/img/masonry_footer.jpg) no-repeat !important;
+    background-position: 60% !important;
+  }
+
+  .footerimage h1 {
+    font-size: 10vw !important;
+  }
+
+  .footertext {
+    margin-top: -3vw;
+  }
+}

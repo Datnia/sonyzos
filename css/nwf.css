@@ -1,0 +1,403 @@
+html,
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  overflow-x: hidden;
+}
+
+.background {
+  background: url(/img/nwfbanner.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: #00033a;
+  font-weight: 900;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+}
+
+.intro h1 {
+  font-size: 2em;
+}
+
+.background h1 {
+  margin: -5vh 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  animation: fadein5 1.5s;
+  letter-spacing: 15px;
+  line-height: 0.85;
+  width: 100%;
+  font-family: "Muli", sans-serif;
+  position: absolute;
+  text-align: center;
+  font-weight: 900;
+  color: #abf293;
+  opacity: 0.5;
+  font-size: 14vw;
+  text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.158);
+}
+
+.scroll {
+  letter-spacing: 2px;
+  font-family: "Muli", sans-serif;
+  position: absolute;
+  color: #00033a;
+  font-weight: 900;
+  bottom: 0;
+  margin-bottom: 55px;
+  width: 100%;
+  font-size: 20px;
+  z-index: 12;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.scroll-line {
+  position: absolute;
+  height: 50px;
+  border-right: 2px solid #00033a;
+  z-index: 3;
+  left: 50%;
+  bottom: 0;
+  transition: 0.2s;
+}
+
+.presentation {
+  font-family: "Muli", sans-serif;
+  padding: 9vw 20vw 10vw 20vw;
+  text-align: center;
+  display: flex;
+}
+
+.presentation h1 {
+  font-size: 38px;
+  color: #00033a;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.presentation p {
+  width: 75%;
+  padding-left: 4vw;
+  line-height: 1.6;
+  font-size: 23px;
+  text-align: left;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+.cobranding {
+  padding: 5vw 0;
+  background-color: #c6f4b7;
+}
+
+.cobranding .brandimg {
+  width: 30%;
+}
+
+.brandwrap {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+.cobranding-text {
+  position: relative;
+  left: 10%;
+  padding-top: 2vw;
+  width: 65%;
+}
+
+.cobranding p {
+  margin-top: -1vw;
+  font-size: 1.05vw;
+}
+
+.wild {
+  margin: 10vw 0;
+  width: 100%;
+}
+
+.wild .nwfoutdoors {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.wild .wildtext {
+  display: inline-block;
+  position: relative;
+  width: 16%;
+  left: 20%;
+  vertical-align: top;
+  margin-top: 10vw;
+}
+
+.wildtext h1 {
+  font-size: 2.2vw;
+}
+
+.wild .wildtext p {
+  margin-top: -1vw;
+  font-size: 1.05vw;
+}
+
+.wild .wildwrap {
+  display: inline-block;
+  position: relative;
+  top: 42%;
+  left: 20%;
+  width: 45%;
+}
+
+.wild .nwfwrap {
+  width: 80%;
+  left: 0%;
+  position: relative;
+  padding-left: 1.5vw;
+}
+
+.nwfsquare {
+  z-index: -1;
+  right: 10%;
+  margin-top: 2000px;
+  position: absolute;
+  height: 39vw;
+  width: 44vw;
+  background-color: #c6f4b7;
+}
+
+.nwfbreak {
+  position: relative;
+  background: url(/img/nwfbreak.png) no-repeat;
+  height: 80vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.monarch {
+  padding-bottom: 4vw;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.monarch .monarchmainwrapper {
+  margin-left: 16vw;
+  padding-top: 10vh;
+  text-align: center;
+}
+
+.monarchmain {
+  width: 42vw;
+}
+
+.wrap {
+  text-align: center;
+}
+
+.monarch .monarchlogo {
+  width: 50%;
+  margin-left: -12vw;
+  margin-top: 7.2vh;
+  position: relative;
+}
+
+.monarch .monarchtext {
+  margin-top: 5vh;
+  margin-left: 6vw;
+  width: 50%;
+  text-align: left;
+}
+
+.monarchtext h1 {
+  font-size: 2vw;
+}
+
+.monarchtext p {
+  margin-top: -1vw;
+  font-size: 0.87vw;
+}
+
+.footerimage h1 {
+  color: #abf293;
+  font-size: 100px;
+}
+
+.footerimage:hover {
+  background: url(/img/nwffooter.png) 50%;
+  cursor: pointer;
+  line-height: 1.6;
+}
+
+@media only screen and (max-width: 1024px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .background {
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50%;
+  }
+
+  .background h1 {
+    overflow: hidden;
+    height: 100vh;
+    font-size: 16vw;
+    line-height: 1.1;
+  }
+
+  .scroll {
+    bottom: 0;
+    margin-bottom: 55px;
+  }
+
+  .cobranding {
+    display: block;
+  }
+
+  .cobranding img {
+    width: 60% !important;
+  }
+
+  .wild .nwfoutdoors {
+    width: 75%;
+  }
+
+  .cobranding-text {
+    width: 80%;
+    display: block;
+    left: unset;
+    margin: 0 auto;
+  }
+
+  .cobranding-text h1 {
+    font-size: 4vw;
+  }
+
+  .cobranding-text p {
+    font-size: 2vw;
+  }
+
+  .nwfsquare {
+    z-index: -1;
+    margin-top: 1740px;
+    width: 100%;
+    height: 80vw;
+    right: unset;
+  }
+
+  .wild .nwfwrap {
+    width: 90%;
+    margin-top: 4vh;
+    padding: 0;
+  }
+
+  .wild .wildtext {
+    margin-top: 7vh;
+    display: block;
+    width: 80%;
+    left: 11%;
+    top: 0;
+  }
+
+  .wild .wildtext h1 {
+    font-size: 4vw;
+  }
+
+  .wild .wildwrap {
+    width: 65%;
+    left: unset;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .wild .wildtext p {
+    font-size: 2vw;
+  }
+
+  .nwfbreak {
+    height: 50%;
+    background-position: 50%;
+  }
+
+  .monarch {
+    display: block;
+  }
+
+  .monarch .monarchmain {
+    position: relative;
+    width: 70%;
+  }
+
+  .monarch .monarchmainwrapper {
+    margin: 0;
+  }
+
+  .monarch .monarchlogo {
+    width: 65%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .monarch .monarchtext {
+    position: relative;
+    left: 11%;
+    width: 80%;
+    margin: 0;
+  }
+
+  .monarchtext h1 {
+    font-size: 4vw;
+  }
+
+  .monarchtext p {
+    font-size: 2vw;
+    margin-top: -1vh;
+  }
+
+  .footerimage {
+    background: url(/img/nwffooter.png) !important;
+    background-position: 40% 100% !important;
+  }
+
+  .footerimage h1 {
+    font-size: 9vw !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  .background h1 {
+    font-size: 10vw;
+  }
+
+  .nwfsquare {
+    display: none;
+  }
+}

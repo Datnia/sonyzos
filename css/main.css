@@ -739,7 +739,7 @@ h2 a:hover {
   }
 
   .presentation h1 {
-    font-size: 5.5vw;
+    font-size: 6vw;
     text-align: left;
     margin-top: 0;
     margin-bottom: 2.5vh;
@@ -747,7 +747,7 @@ h2 a:hover {
 
   .presentation p {
     margin-top: -1vh;
-    font-size: 3vw;
+    font-size: 3.5vw;
     padding: 0;
     width: 120%;
   }

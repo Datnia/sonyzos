@@ -762,15 +762,23 @@ h2 a:hover {
   .scroll {
     font-size: 3vw;
   }
+
+  span {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 767px) {
+  .loading-page .counter h1 {
+    font-size: 200px;
+  }
+
   .footerimage p {
     font-size: 16px;
   }
 
   .footerimage h1 {
-    font-size: 11vw;
+    font-size: 16vw;
   }
 
   hr {

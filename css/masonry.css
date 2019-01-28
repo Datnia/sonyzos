@@ -224,9 +224,9 @@ p {
 
   .takeaway {
     padding: 10vw 0;
-    height: 125vw;
     display: flex;
     flex-direction: column;
+    height: unset;
   }
 
   .masonrysquare {
@@ -251,11 +251,11 @@ p {
   }
 
   .takeawaytext h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 
   .takeawaytext p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .footerimage {

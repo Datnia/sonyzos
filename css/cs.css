@@ -246,6 +246,7 @@ h2 a {
 
   .cslaptop img {
     width: 80%;
+    padding-top: 5vw;
   }
 
   .cslaptoptext {
@@ -254,11 +255,11 @@ h2 a {
   }
 
   .cslaptoptext h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 
   .cslaptoptext p {
-    font-size: 2.5vw;
+    font-size: 3vw;
     margin-top: -1vh;
   }
 
@@ -285,12 +286,12 @@ h2 a {
   }
 
   .cstext h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 
   .cstext p {
     margin-top: -1vh;
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .csphoneimg {
@@ -311,13 +312,17 @@ h2 a {
   .cspersonalities {
     display: block;
     right: 0;
+    margin: 10vw 0;
+  }
+
+  .cspersonalities img {
+    width: 85%;
   }
 
   .csportrait .text {
     position: relative;
     width: 80%;
-    left: 11%;
-    margin: 0;
+    margin: 0 auto;
     padding: 5vh 0;
   }
 
@@ -326,12 +331,12 @@ h2 a {
   }
 
   .csportrait .text h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 
   .csportrait .text p {
     margin-top: -1vh;
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .footerimage {

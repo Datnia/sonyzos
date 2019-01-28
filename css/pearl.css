@@ -248,7 +248,7 @@ h2 a {
     height: 65vw;
     width: 50%;
     padding: 0;
-    margin: 120vw auto 0;
+    margin: 180vw auto 0;
     display: block;
   }
 
@@ -262,31 +262,30 @@ h2 a {
   }
 
   .pearltext {
-    margin: 0 auto;
+    margin: -9vh auto 0;
     width: 80%;
     position: relative;
     display: block;
-    margin-top: -15vw;
   }
 
   .phonewrap {
-    height: 145vw;
-    margin-top: 15vw;
+    height: unset;
+    margin: 15vw 0;
   }
 
   .pearltext h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 
   .pearltext p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .brandingsquare {
     position: absolute;
     width: 60%;
     height: 60vw;
-    margin: 1500px auto 0;
+    margin: 2000px auto 0;
     left: 0;
     right: 0;
   }
@@ -327,11 +326,11 @@ h2 a {
   }
 
   .pearlbranding .text h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 
   .pearlbranding .text p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .footerimage {

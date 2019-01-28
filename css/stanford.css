@@ -258,11 +258,11 @@ p {
   }
 
   .reviewtext h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 
   .reviewtext p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .stanfordbreak {
@@ -310,12 +310,12 @@ p {
   }
 
   .tablettext h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 
   .tablettext p {
     display: block;
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .stanfordillustrations {
@@ -333,10 +333,6 @@ p {
     background: url(/img/stanford_footer.jpg) !important;
     background-position: 50% !important;
     background-size: cover !important;
-  }
-
-  .footerimage h1 {
-    font-size: 12vw;
   }
 }
 

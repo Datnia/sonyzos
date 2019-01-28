@@ -55,6 +55,14 @@ body {
   transition: 0.2s;
 }
 
+p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+}
+
 .presentation {
   font-family: "Muli", sans-serif;
   padding: 9vw 20vw 10vw 20vw;
@@ -265,11 +273,11 @@ body {
   }
 
   .ihepreports h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 
   .ihepreports p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .ihepbreak {
@@ -320,11 +328,11 @@ body {
   }
 
   .anniversary h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
 
   .anniversary p {
-    font-size: 2.5vw;
+    font-size: 3vw;
     width: 100%;
     margin-top: -1vh;
   }

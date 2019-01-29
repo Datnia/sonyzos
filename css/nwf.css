@@ -236,7 +236,7 @@ p {
 
 .footerimage h1 {
   color: #abf293;
-  font-size: 100px;
+  font-size: 5vw;
 }
 
 .footerimage:hover {
@@ -403,6 +403,7 @@ p {
   }
 
   .footerimage h1 {
-    font-size: 6.5vw !important;
+    font-size: 11vh !important;
+    margin-top: -1vh;
   }
 }

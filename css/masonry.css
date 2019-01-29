@@ -184,7 +184,7 @@ p {
 
 .footerimage h1 {
   color: #fff2bb;
-  font-size: 115px;
+  font-size: 5vw;
 }
 
 @media only screen and (max-width: 1024px) {

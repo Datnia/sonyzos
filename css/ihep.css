@@ -203,7 +203,7 @@ p {
 }
 
 .footerimage h1 {
-  font-size: 115px;
+  font-size: 6vw;
   color: #ffd3ac;
 }
 
@@ -340,10 +340,6 @@ p {
   .footerimage {
     background: url(/img/ihepfooter.png) !important;
     background-position: 50% 0 !important;
-  }
-
-  .footerimage p {
-    margin: 0;
   }
 }
 

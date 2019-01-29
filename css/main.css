@@ -485,7 +485,7 @@ hr {
 }
 
 .footerimage h1 {
-  margin: 1vw 0;
+  margin: 1vh 0;
   letter-spacing: 2px;
   font-weight: 900;
 }
@@ -738,7 +738,7 @@ h2 a:hover {
   }
 
   .presentation h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
     text-align: left;
     margin-top: 0;
     margin-bottom: 2.5vh;
@@ -746,7 +746,7 @@ h2 a:hover {
 
   .presentation p {
     margin-top: -1vh;
-    font-size: 3vw;
+    font-size: 3vmin;
     padding: 0;
     width: 120%;
   }
@@ -756,7 +756,7 @@ h2 a:hover {
   }
 
   h2 a {
-    font-size: 3vw;
+    font-size: 3vmin;
   }
   .scroll {
     font-size: 3vw;
@@ -873,6 +873,20 @@ h2 a:hover {
   nav ul li {
     bottom: 15%;
   }
+
+  .background h1 {
+    margin-top: -10vh;
+  }
+
+  .footerimage {
+    height: 50vh;
+  }
+  .footerimage a {
+    height: 50vh;
+  }
+  .footerimage h1 {
+    font-size: 11vw;
+  }
 }
 
 @media only screen and (max-width: 768px) and (orientation: landscape) {
@@ -898,27 +912,5 @@ h2 a:hover {
 
   #container .box {
     width: 55vw;
-  }
-
-  .presentation h1 {
-    font-size: 5.5vh;
-  }
-
-  .presentation p {
-    font-size: 3vh;
-  }
-
-  h2 a {
-    font-size: 3vh;
-  }
-
-  .footerimage {
-    height: 50vh;
-  }
-  .footerimage a {
-    height: 50vh;
-  }
-  .footerimage h1 {
-    font-size: 12vw;
   }
 }

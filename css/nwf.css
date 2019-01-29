@@ -298,11 +298,11 @@ p {
   }
 
   .cobranding-text h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .cobranding-text p {
-    font-size: 3vw;
+    font-size: 3vmin;
   }
 
   .nwfsquare {
@@ -323,12 +323,13 @@ p {
     margin-top: 7vh;
     display: block;
     width: 80%;
-    left: 11%;
+    left: unset;
+    margin: 0 auto;
     top: 0;
   }
 
   .wild .wildtext h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .wild .wildwrap {
@@ -339,7 +340,7 @@ p {
   }
 
   .wild .wildtext p {
-    font-size: 3vw;
+    font-size: 3vmin;
   }
 
   .nwfbreak {
@@ -374,11 +375,11 @@ p {
   }
 
   .monarchtext h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .monarchtext p {
-    font-size: 3vw;
+    font-size: 3vmin;
     margin-top: -1vh;
   }
 
@@ -399,5 +400,9 @@ p {
 
   .nwfsquare {
     display: none;
+  }
+
+  .footerimage h1 {
+    font-size: 6.5vw !important;
   }
 }

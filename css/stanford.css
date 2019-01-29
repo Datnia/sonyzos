@@ -258,11 +258,11 @@ p {
   }
 
   .reviewtext h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .reviewtext p {
-    font-size: 3vw;
+    font-size: 3vmin;
   }
 
   .stanfordbreak {
@@ -310,12 +310,12 @@ p {
   }
 
   .tablettext h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .tablettext p {
     display: block;
-    font-size: 3vw;
+    font-size: 3vmin;
   }
 
   .stanfordillustrations {

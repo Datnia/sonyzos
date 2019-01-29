@@ -498,7 +498,6 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 40vh;
 }
 
 h2 a {
@@ -901,7 +900,25 @@ h2 a:hover {
     width: 55vw;
   }
 
-  .tag h1 {
-    right: -190%;
+  .presentation h1 {
+    font-size: 5.5vh;
+  }
+
+  .presentation p {
+    font-size: 3vh;
+  }
+
+  h2 a {
+    font-size: 3vh;
+  }
+
+  .footerimage {
+    height: 50vh;
+  }
+  .footerimage a {
+    height: 50vh;
+  }
+  .footerimage h1 {
+    font-size: 12vw;
   }
 }

@@ -274,11 +274,11 @@ h2 a {
   }
 
   .pearltext h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .pearltext p {
-    font-size: 3vw;
+    font-size: 3vmin;
   }
 
   .brandingsquare {
@@ -326,11 +326,11 @@ h2 a {
   }
 
   .pearlbranding .text h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .pearlbranding .text p {
-    font-size: 3vw;
+    font-size: 3vmin;
   }
 
   .footerimage {
@@ -347,6 +347,7 @@ h2 a {
 
 @media only screen and (orientation: landscape) and (max-width: 768px) {
   .background h1 {
-    top: 5vw;
+    font-size: 14vw;
+    margin-top: -10vh;
   }
 }

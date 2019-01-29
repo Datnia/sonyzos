@@ -255,11 +255,11 @@ h2 a {
   }
 
   .cslaptoptext h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .cslaptoptext p {
-    font-size: 3vw;
+    font-size: 3vmin;
     margin-top: -1vh;
   }
 
@@ -286,12 +286,12 @@ h2 a {
   }
 
   .cstext h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .cstext p {
     margin-top: -1vh;
-    font-size: 3vw;
+    font-size: 3vmin;
   }
 
   .csphoneimg {
@@ -331,12 +331,12 @@ h2 a {
   }
 
   .csportrait .text h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .csportrait .text p {
     margin-top: -1vh;
-    font-size: 3vw;
+    font-size: 3vmin;
   }
 
   .footerimage {

@@ -273,11 +273,11 @@ p {
   }
 
   .ihepreports h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .ihepreports p {
-    font-size: 3vw;
+    font-size: 3vmin;
   }
 
   .ihepbreak {
@@ -328,11 +328,11 @@ p {
   }
 
   .anniversary h1 {
-    font-size: 5.5vw;
+    font-size: 5.5vmin;
   }
 
   .anniversary p {
-    font-size: 3vw;
+    font-size: 3vmin;
     width: 100%;
     margin-top: -1vh;
   }

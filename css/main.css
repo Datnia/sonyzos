@@ -74,10 +74,10 @@ header:hover {
 .nav-content {
   letter-spacing: 0.5px;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
   display: block;
   position: absolute;
-  top: 22.95vw;
+  top: 35vh;
   left: 13%;
   width: 2%;
   line-height: 2;
@@ -95,8 +95,8 @@ header:hover {
 
 .intro {
   position: absolute;
-  top: 12vw;
-  left: 13%;
+  margin: 8vw 0 0 13vw;
+  width: 25%;
 }
 
 .button a {
@@ -107,15 +107,15 @@ header:hover {
 .intro h1 {
   letter-spacing: 2px;
   font-weight: 800;
-  font-size: 1.5em;
-  width: 55%;
+  font-size: 2.7vh;
   color: #00033a;
+  margin: 0;
 }
 
 .nav-overlay .button {
   font-size: 18px;
   position: absolute;
-  top: 18.3vw;
+  top: 26vh;
   left: 13%;
   color: #00033a;
   text-align: center;
@@ -129,27 +129,25 @@ header:hover {
   cursor: pointer;
 }
 
-.bio h1 {
-  letter-spacing: 2px;
-  font-weight: 800;
-  font-size: 1.5em;
-  top: 12vw;
+.bio {
   width: 50%;
-  right: 10%;
+  right: 0;
   position: absolute;
-  color: #00033a;
+  margin: 8vw 10vw 0 0;
+}
+
+.bio h1 {
+  margin: 0;
+  margin-bottom: 2vw;
+  font-size: 2.7vh;
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 
 .bio p {
-  letter-spacing: 1px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1em;
-  width: 50%;
-  line-height: 1.6;
-  top: 17vw;
-  right: 10vw;
-  position: absolute;
+  font-size: 1.9vh;
   font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .preloader,
@@ -193,12 +191,12 @@ a {
 
 footer {
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 1px;
   text-decoration: none;
   position: absolute;
   bottom: 2%;
-  right: 20%;
+  left: 12vw;
 }
 
 #container .box {
@@ -608,85 +606,76 @@ h2 a:hover {
   }
 }
 
-@media only screen and (max-width: 1280px) {
-  .bio h1,
-  .intro h1 {
-    font-size: 18px;
+@media only screen and (max-width: 1025px) {
+  .bio {
+    width: 80%;
+    margin: 10vmin auto;
+    right: 0;
+    left: 0;
+    display: block;
+  }
+
+  .bio h1 {
+    font-size: 4.5vmin;
+    margin-bottom: 5vh;
   }
 
   .bio p {
-    font-size: 14px;
+    font-size: 2vmin;
+  }
+
+  .intro {
+    width: 100%;
+    margin: 0;
+    margin-left: 10vw;
+    top: 70vmin;
+  }
+
+  .intro h1 {
+    font-size: 3vmin;
+    position: absolute;
+  }
+
+  .nav-overlay .button {
+    width: 20vw;
+    left: 10vw;
+    top: 78vmin;
+    font-size: 2vw;
   }
 
   .nav-content {
-    top: 25vw;
+    position: absolute;
+    top: 80vmin;
+    left: unset;
+    right: 10vw;
+    flex-direction: row !important;
+    line-height: 3vh;
+    font-size: 2vw;
+    width: auto;
   }
 
-  .indicator {
-    display: none;
+  .nav-content a {
+    padding-left: 20px;
   }
 
-  footer {
-    right: 0;
-    text-align: center;
-    font-size: 10px;
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 1025px) {
   #nav {
     display: flex;
     flex-direction: row;
   }
 
-  .bio h1,
-  .bio p {
-    width: 75%;
-    right: 12%;
-  }
-
-  .bio h1 {
-    top: 8vh;
-    font-size: 4vw;
-  }
-
-  .bio p {
-    top: 20vh;
-    font-size: 2.5vw;
-  }
-
-  .intro {
-    width: 40%;
-  }
-
-  .intro h1 {
-    font-size: 3vw;
-    top: 59vh;
-    position: absolute;
-    width: 122%;
-  }
-
-  .nav-overlay .button {
-    width: 16vw;
-    top: unset;
-    bottom: 75px;
-    font-size: 2.5vw;
-  }
-
-  .nav-content {
-    position: absolute;
-    top: unset;
-    bottom: 12%;
-    left: 75vw;
-    flex-direction: column !important;
-    line-height: 3vh;
-    font-size: 2.5vw;
-  }
-
   header .logo,
   header .menu {
     top: 5%;
+  }
+
+  footer {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 10px;
   }
 
   nav ul li {
@@ -767,7 +756,59 @@ h2 a:hover {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 825px) {
+  .bio {
+    width: 80%;
+    margin: 7vw auto;
+    right: 0;
+    left: 0;
+    display: block;
+  }
+
+  .bio h1 {
+    font-size: 3vh;
+    margin-bottom: 5vmin;
+  }
+
+  .bio p {
+    font-size: 1.5vh;
+  }
+
+  .intro {
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 70vh;
+  }
+
+  .intro h1 {
+    font-size: 2vh;
+    position: absolute;
+  }
+
+  .nav-overlay .button {
+    width: 20vw;
+    top: 80vh;
+    font-size: 2.5vw;
+    left: 10vw;
+  }
+
+  .nav-content {
+    position: absolute;
+    top: 80vh;
+    left: unset;
+    right: 15vw;
+    font-size: 12px;
+    width: auto;
+    flex-direction: column !important;
+  }
+
+  .nav-content a {
+    padding-left: 10px;
+  }
+
   .loading-page .counter h1 {
     font-size: 200px;
   }
@@ -809,46 +850,6 @@ h2 a:hover {
 }
 
 @media only screen and (max-width: 1025px) and (orientation: landscape) {
-  .bio h1,
-  .bio p {
-    width: 70%;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-  }
-  .bio h1 {
-    font-size: 2vw;
-    top: 9vh;
-  }
-
-  .bio p {
-    font-size: 1.5vw;
-    top: 19vh;
-  }
-
-  .intro {
-    left: 15%;
-  }
-
-  .intro h1 {
-    width: 150%;
-    font-size: 2vw;
-    top: 45vh;
-  }
-
-  .nav-overlay .button {
-    bottom: 12vh;
-    height: 4vh;
-    font-size: 3vh;
-    left: 15%;
-  }
-
-  .nav-content {
-    font-size: 16px;
-    left: 77%;
-    bottom: 13%;
-  }
-
   .box img:nth-child(1) {
     width: 65vw;
     height: 50vh;
@@ -890,22 +891,6 @@ h2 a:hover {
 }
 
 @media only screen and (max-width: 768px) and (orientation: landscape) {
-  .intro h1 {
-    width: 35vw;
-  }
-  .nav-overlay .button {
-    bottom: 13vh;
-    padding: 5px 15px;
-    width: 12%;
-    left: 50%;
-  }
-
-  .nav-content {
-    font-size: 10px;
-    line-height: 1.4;
-    bottom: 12%;
-  }
-
   .box img:nth-child(1) {
     width: 50vw;
   }

@@ -262,7 +262,7 @@ h2 a {
   }
 
   .pearltext {
-    margin: -9vh auto 0;
+    margin: -9vmax auto 0;
     width: 80%;
     position: relative;
     display: block;
@@ -339,9 +339,9 @@ h2 a {
   }
 }
 
-@media only screen and (orientation: landscape) and (max-width: 768px) {
+@media only screen and (orientation: landscape) and (max-width: 1028px) {
   .background h1 {
-    font-size: 14vw;
+    font-size: 13vw;
     margin-top: -10vh;
   }
 }

@@ -4,11 +4,15 @@ var rellax = new Rellax(".rellax");
 
 function openNav() {
   if ($(window).width() <= 1024) {
-    document.getElementById("nav").style.height = "90%";
+    document.getElementById("nav").style.height = "100%";
   } else {
     document.getElementById("nav").style.height = "75%";
   }
 }
+
+$(window).on("scroll", function() {
+  closeNav();
+});
 
 function closeNav() {
   document.getElementById("nav").style.height = "0%";

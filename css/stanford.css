@@ -249,6 +249,7 @@ p {
   .prev,
   .next {
     position: absolute;
+    margin-top: -11vmax;
   }
 
   .reviewtext {

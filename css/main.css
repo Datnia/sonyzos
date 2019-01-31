@@ -96,7 +96,7 @@ header:hover {
 .intro {
   position: absolute;
   margin: 8vw 0 0 13vw;
-  width: 25%;
+  width: 20%;
 }
 
 .button a {
@@ -106,7 +106,7 @@ header:hover {
 
 .intro h1 {
   letter-spacing: 2px;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 2.7vh;
   color: #00033a;
   margin: 0;
@@ -134,13 +134,14 @@ header:hover {
   right: 0;
   position: absolute;
   margin: 8vw 10vw 0 0;
+  font-family: "Muli", sans-serif;
 }
 
 .bio h1 {
   margin: 0;
   margin-bottom: 2vw;
   font-size: 2.7vh;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: 2px;
 }
 
@@ -148,6 +149,7 @@ header:hover {
   font-size: 1.9vh;
   font-weight: 400;
   letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 .preloader,
@@ -780,7 +782,7 @@ h2 a:hover {
     display: block;
     left: 0;
     right: 0;
-    top: 70vh;
+    top: 65vh;
   }
 
   .intro h1 {
@@ -790,14 +792,14 @@ h2 a:hover {
 
   .nav-overlay .button {
     width: 20vw;
-    top: 80vh;
+    top: 75vh;
     font-size: 2.5vw;
     left: 10vw;
   }
 
   .nav-content {
     position: absolute;
-    top: 80vh;
+    top: 75vh;
     left: unset;
     right: 15vw;
     font-size: 12px;

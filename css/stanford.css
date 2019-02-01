@@ -268,21 +268,7 @@ p {
   .stanfordbreak {
     background-position: 25%;
     height: 50vh;
-  }
-
-  .stanfordbreak:before {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 50vh;
-    width: 100%;
-    z-index: -10;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-attachment: unset;
   }
 
   .tablet {

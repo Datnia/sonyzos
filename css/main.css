@@ -342,17 +342,17 @@ nav ul li {
 
 .box img:nth-child(1) {
   width: 45.5vw;
-  position: absolute;
+  position: relative;
   left: 0%;
   opacity: 0.8;
-  margin-top: 30vh;
+  margin-top: 27vh;
 }
 
 .box img:nth-child(2) {
   width: 45.5vw;
   position: absolute;
   left: 0%;
-  margin-top: 30vh;
+  margin-top: 27vh;
 }
 
 .tag h1 {
@@ -362,10 +362,9 @@ nav ul li {
   letter-spacing: 1px;
   z-index: 3;
   font-family: "Muli", sans-serif;
-  position: absolute;
+  position: relative;
   font-size: 1.1vw;
   color: #00033a;
-  top: 13vw;
   font-weight: 800;
 }
 
@@ -710,9 +709,9 @@ h2 a:hover {
   }
 
   .box img:nth-child(1) {
+    margin-top: 15vh;
     height: auto;
     width: 60vw;
-    margin-top: -10vh;
     height: 60vh;
     left: 0;
   }
@@ -845,7 +844,6 @@ h2 a:hover {
   .box img:nth-child(1) {
     height: auto;
     width: 80vw;
-    margin-top: -10vh;
     height: 60vh;
     left: 0;
   }

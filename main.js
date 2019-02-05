@@ -5,8 +5,10 @@ var rellax = new Rellax(".rellax");
 function openNav() {
   if ($(window).width() <= 1024) {
     document.getElementById("nav").style.height = "100%";
+    $(".bio, .intro, .buttonwrapper, .nav-content").fadeIn(700);
   } else {
     document.getElementById("nav").style.height = "75%";
+    $(".bio, .intro, .buttonwrapper, .nav-content").fadeIn(700);
   }
 }
 
@@ -16,6 +18,7 @@ $(window).on("scroll", function() {
 
 function closeNav() {
   document.getElementById("nav").style.height = "0%";
+  $(".bio, .intro, .buttonwrapper, .nav-content").fadeOut(70);
 }
 
 $(".box, .container").on("click", function() {

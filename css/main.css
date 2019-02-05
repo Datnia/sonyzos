@@ -30,7 +30,7 @@ header .logo {
 header .menu {
   top: 10%;
   right: 6%;
-  z-index: 1;
+  z-index: 3;
   position: fixed;
   margin: 0 auto;
   color: #d2d2d7;
@@ -71,15 +71,60 @@ header:hover {
   letter-spacing: 5px;
 }
 
+ul {
+  margin: 0;
+}
+
+#nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.intro,
+.nav-content,
+.buttonwrapper,
+.bio {
+  display: none;
+}
+
+.intro {
+  margin: 8vw 0 0 13vw;
+  width: 20%;
+}
+
+.intro h1 {
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 2.7vh;
+  color: #00033a;
+  margin: 0;
+}
+
+.button a {
+  text-decoration: none;
+  color: #00033a;
+}
+
+.buttonwrapper {
+  width: 0;
+}
+
+.nav-overlay .button {
+  font-size: 0.9vw;
+  margin: 2vw 13vw;
+  color: #00033a;
+  text-align: center;
+  padding: 0.7vw 1.5vw;
+  border: solid 2px;
+  width: 134.4px;
+  font-weight: 600;
+}
+
 .nav-content {
   letter-spacing: 0.5px;
   font-weight: 500;
-  text-align: left;
-  display: block;
-  position: absolute;
-  top: 35vh;
-  left: 13%;
-  width: 2%;
+  margin: 0 13vw;
   line-height: 2;
 }
 
@@ -93,46 +138,9 @@ header:hover {
   transition: 0.3s;
 }
 
-.intro {
-  position: absolute;
-  margin: 8vw 0 0 13vw;
-  width: 20%;
-}
-
-.button a {
-  text-decoration: none;
-  color: #00033a;
-}
-
-.intro h1 {
-  letter-spacing: 2px;
-  font-weight: 900;
-  font-size: 2.7vh;
-  color: #00033a;
-  margin: 0;
-}
-
-.nav-overlay .button {
-  font-size: 18px;
-  position: absolute;
-  top: 26vh;
-  left: 13%;
-  color: #00033a;
-  text-align: center;
-  padding: 14px 28px;
-  border: solid 2px;
-  width: 134.4px;
-  font-weight: 600;
-}
-
-.nav-overlay .button:hover {
-  cursor: pointer;
-}
-
 .bio {
   width: 50%;
   right: 0;
-  position: absolute;
   margin: 8vw 10vw 0 0;
   font-family: "Muli", sans-serif;
 }
@@ -143,6 +151,7 @@ header:hover {
   font-size: 2.7vh;
   font-weight: 900;
   letter-spacing: 2px;
+  color: #00033a;
 }
 
 .bio p {
@@ -331,6 +340,11 @@ nav ul li {
   transition: 0.3s;
 }
 
+.remove {
+  opacity: 0;
+  transition: 0.1s;
+}
+
 .navItem {
   opacity: 0;
   transition: 0.5s;
@@ -517,13 +531,16 @@ h2 a:hover {
 
 .bg {
   transition: 0.5s;
+  object-fit: cover;
 }
 
 .bg.fullscreen {
   z-index: 5 !important;
+  display: block;
   width: 100vw !important;
   margin-top: 0 !important;
   left: -27.25vw !important;
+  object-fit: cover !important;
 }
 
 @keyframes loader {

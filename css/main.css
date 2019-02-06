@@ -628,60 +628,6 @@ h2 a:hover {
 }
 
 @media only screen and (max-width: 1025px) {
-  /* .bio {
-    width: 80%;
-    margin: 10vmin auto;
-    right: 0;
-    left: 0;
-    display: block;
-  }
-
-  .bio h1 {
-    font-size: 4.5vmin;
-    margin-bottom: 5vh;
-  }
-
-  .bio p {
-    font-size: 2vmin;
-  }
-
-  .intro {
-    width: 100%;
-    margin: 0;
-    margin-left: 10vw;
-    top: 70vmin;
-  }
-
-  .intro h1 {
-    font-size: 3vmin;
-  }
-
-  .nav-overlay .button {
-    width: 20vw;
-    left: 10vw;
-    top: 78vmin;
-    font-size: 2vw;
-  }
-
-  .nav-content {
-    top: 80vmin;
-    left: unset;
-    right: 10vw;
-    flex-direction: row !important;
-    line-height: 3vh;
-    font-size: 2vw;
-    width: auto;
-  }
-
-  .nav-content a {
-    padding-left: 20px;
-  }
-
-  #nav {
-    display: flex;
-    flex-direction: row;
-  } */
-
   header .logo,
   header .menu {
     top: 5%;
@@ -797,7 +743,7 @@ h2 a:hover {
 
   .intro {
     width: 80%;
-    margin: 1vw auto;
+    margin: 4vw auto 2vw;
     order: 2;
   }
 
@@ -827,57 +773,6 @@ h2 a:hover {
   .nav-content a {
     padding-left: 20px;
   }
-
-  /* .bio {
-    width: 80%;
-    margin: 7vmin auto;
-    right: 0;
-    left: 0;
-    display: block;
-  }
-
-  .bio h1 {
-    font-size: 3vmin;
-    margin-bottom: 5vmin;
-  }
-
-  .bio p {
-    font-size: 1.5vh;
-  }
-
-  .intro {
-    margin: 0 auto;
-    width: 80%;
-    display: block;
-    left: 0;
-    right: 0;
-  }
-
-  .intro h1 {
-    font-size: 2vh;
-    position: absolute;
-  }
-
-  .nav-overlay .button {
-    width: 20vw;
-    top: 75vh;
-    font-size: 2.5vw;
-    left: 10vw;
-  }
-
-  .nav-content {
-    position: absolute;
-    top: 75vh;
-    left: unset;
-    right: 15vw;
-    font-size: 12px;
-    width: auto;
-    flex-direction: column !important;
-  }
-
-  .nav-content a {
-    padding-left: 10px;
-  } */
 
   .loading-page .counter h1 {
     font-size: 200px;
@@ -959,23 +854,13 @@ h2 a:hover {
   }
 }
 
-/* @media only screen and (max-width: 768px) and (orientation: landscape) {
-  .box img:nth-child(1) {
-    width: 50vw;
-  }
-
-  #container .box {
-    width: 55vw;
-  }
-} */
-
 @media only screen and (max-width: 500px) {
   .bio h1 {
-    font-size: 3vh;
+    font-size: 5.5vmin;
   }
 
   .bio p {
-    font-size: 1.5vh;
+    font-size: 3vmin;
   }
 
   .intro h1 {
@@ -999,40 +884,30 @@ h2 a:hover {
     padding: 1px;
   }
 }
-/* 
-@media only screen and (max-width: 500px) and (max-height: 920px) {
-  .bio p {
-    font-size: 1.53vh;
-  }
-}
 
 @media only screen and (max-width: 850px) and (max-height: 500px) {
+  .bio {
+    margin: 2vw auto 0;
+  }
   .bio h1 {
-    font-size: 5vmin;
+    font-size: 5.5vmin;
+    margin-bottom: 1.5vw;
   }
 
   .bio p {
-    font-size: 2.6vmin;
-  }
-
-  .intro {
-    top: 73vh;
-  }
-
-  .intro h1 {
     font-size: 3vmin;
   }
 
-  .nav-overlay .button {
-    padding: 9px 14px;
-    font-size: 2.6vmin;
-    top: 80vh;
+  .intro {
+    margin-top: 0;
   }
 
   .nav-content {
-    flex-direction: row !important;
-    right: unset;
-    left: 35vw;
-    top: 83vh;
+    margin: -5.5vw 35vw 0 0;
+    font-size: 3vmin;
   }
-} */
+  .nav-overlay .button {
+    margin-top: 1.2vw;
+    font-size: 3vmin;
+  }
+}

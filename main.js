@@ -5,10 +5,10 @@ var rellax = new Rellax(".rellax");
 function openNav() {
   if ($(window).width() <= 825) {
     document.getElementById("nav").style.height = "100%";
-    $(".bio, .intro, .buttonwrapper, .nav-content, footer").fadeIn(700);
+    $(".bio, .intro, .buttonwrapper, .nav-content, footer").fadeIn(1000);
   } else {
     document.getElementById("nav").style.height = "75%";
-    $(".bio, .intro, .buttonwrapper, .nav-content, footer").fadeIn(700);
+    $(".bio, .intro, .buttonwrapper, .nav-content, footer").fadeIn(1000);
   }
 }
 

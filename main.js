@@ -6,7 +6,7 @@ function openNav() {
   if ($(window).width() <= 825) {
     document.getElementById("nav").style.height = "100%";
     $(".bio, .intro , .button, .nav-content a, footer")
-      .delay(2000)
+      .delay(300)
       .fadeIn(700);
   } else {
     document.getElementById("nav").style.height = "75%";

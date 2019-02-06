@@ -126,6 +126,7 @@ ul {
   font-weight: 500;
   margin: 0 13vw;
   line-height: 2;
+  font-size: 1.6vh;
 }
 
 .nav-content a {
@@ -164,7 +165,8 @@ ul {
 
 .preloader,
 .loading-page,
-.loading-page .counter h1 {
+.loading-page .counter h1,
+footer {
   display: none;
 }
 
@@ -626,7 +628,7 @@ h2 a:hover {
 }
 
 @media only screen and (max-width: 1025px) {
-  .bio {
+  /* .bio {
     width: 80%;
     margin: 10vmin auto;
     right: 0;
@@ -652,7 +654,6 @@ h2 a:hover {
 
   .intro h1 {
     font-size: 3vmin;
-    position: absolute;
   }
 
   .nav-overlay .button {
@@ -663,7 +664,6 @@ h2 a:hover {
   }
 
   .nav-content {
-    position: absolute;
     top: 80vmin;
     left: unset;
     right: 10vw;
@@ -680,7 +680,7 @@ h2 a:hover {
   #nav {
     display: flex;
     flex-direction: row;
-  }
+  } */
 
   header .logo,
   header .menu {
@@ -782,6 +782,54 @@ h2 a:hover {
 @media only screen and (max-width: 825px) {
   .bio {
     width: 80%;
+    margin: 7vw auto 0;
+    order: 1;
+  }
+
+  .bio h1 {
+    font-size: 4vmin;
+    margin-bottom: 4vw;
+  }
+
+  .bio p {
+    font-size: 2.2vmin;
+  }
+
+  .intro {
+    width: 80%;
+    margin: 1vw auto;
+    order: 2;
+  }
+
+  .intro h1 {
+    font-size: 3.5vmin;
+  }
+
+  .buttonwrapper {
+    order: 3;
+  }
+
+  .nav-overlay .button {
+    width: 20vw;
+    font-size: 2.2vmin;
+    margin-left: 10vw;
+  }
+
+  .nav-content {
+    order: 4;
+    align-self: flex-end;
+    flex-direction: row !important;
+    margin-right: 10vw;
+    margin-top: -6vw;
+    font-size: 2.2vmin;
+  }
+
+  .nav-content a {
+    padding-left: 20px;
+  }
+
+  /* .bio {
+    width: 80%;
     margin: 7vmin auto;
     right: 0;
     left: 0;
@@ -803,7 +851,6 @@ h2 a:hover {
     display: block;
     left: 0;
     right: 0;
-    top: 65vh;
   }
 
   .intro h1 {
@@ -830,7 +877,7 @@ h2 a:hover {
 
   .nav-content a {
     padding-left: 10px;
-  }
+  } */
 
   .loading-page .counter h1 {
     font-size: 200px;
@@ -912,7 +959,7 @@ h2 a:hover {
   }
 }
 
-@media only screen and (max-width: 768px) and (orientation: landscape) {
+/* @media only screen and (max-width: 768px) and (orientation: landscape) {
   .box img:nth-child(1) {
     width: 50vw;
   }
@@ -920,18 +967,39 @@ h2 a:hover {
   #container .box {
     width: 55vw;
   }
-}
+} */
 
 @media only screen and (max-width: 500px) {
   .bio h1 {
-    font-size: 5.5vmin;
+    font-size: 3vh;
   }
 
   .bio p {
-    font-size: 3vmin;
+    font-size: 1.5vh;
+  }
+
+  .intro h1 {
+    font-size: 2.5vh;
+    margin-bottom: 1vh;
+  }
+
+  .nav-overlay .button {
+    font-size: 1.5vh;
+    width: 30vw;
+    padding: 2vw;
+  }
+
+  .nav-content {
+    font-size: 1.5vh;
+    flex-direction: column !important;
+    margin-top: -12vw;
+  }
+
+  .nav-content a {
+    padding: 1px;
   }
 }
-
+/* 
 @media only screen and (max-width: 500px) and (max-height: 920px) {
   .bio p {
     font-size: 1.53vh;
@@ -967,4 +1035,4 @@ h2 a:hover {
     left: 35vw;
     top: 83vh;
   }
-}
+} */

@@ -82,8 +82,8 @@ ul {
 }
 
 .intro,
-.nav-content,
-.buttonwrapper,
+.nav-content a,
+.button,
 .bio {
   display: none;
 }
@@ -638,7 +638,6 @@ h2 a:hover {
     right: 0;
     margin: 0 auto;
     text-align: center;
-    display: block;
     width: 100%;
     font-size: 10px;
   }

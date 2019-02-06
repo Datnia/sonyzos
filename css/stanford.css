@@ -345,6 +345,6 @@ p {
 
 @media only screen and (max-width: 1025px) and (orientation: landscape) {
   .background h1 {
-    font-size: 18vw;
+    font-size: 16vw;
   }
 }

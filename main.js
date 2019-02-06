@@ -5,10 +5,12 @@ var rellax = new Rellax(".rellax");
 function openNav() {
   if ($(window).width() <= 825) {
     document.getElementById("nav").style.height = "100%";
-    $(".bio, .intro, .buttonwrapper, .nav-content, footer").fadeIn(1000);
+    $(".bio, .intro , .button, .nav-content a, footer")
+      .delay(300)
+      .fadeIn(700);
   } else {
     document.getElementById("nav").style.height = "75%";
-    $(".bio, .intro, .buttonwrapper, .nav-content, footer").fadeIn(1000);
+    $(".bio, .intro , .button, .nav-content a, footer").fadeIn(1000);
   }
 }
 
@@ -18,7 +20,7 @@ $(window).on("scroll", function() {
 
 function closeNav() {
   document.getElementById("nav").style.height = "0%";
-  $(".bio, .intro, .buttonwrapper, .nav-content, footer").fadeOut(70);
+  $(".bio, .intro, .button, .nav-content a, footer").fadeOut(70);
 }
 
 $(".box, .container").on("click", function() {

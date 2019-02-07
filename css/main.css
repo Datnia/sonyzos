@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: "Muli", sans-serif;
   display: block;
+  scrollbar-width: none;
 }
 
 h1 {
@@ -241,6 +242,9 @@ footer {
   position: absolute;
   width: 100vh;
   height: 100vw;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
 }
 
 #projects {
@@ -286,7 +290,7 @@ nav ul li {
   width: auto;
   font-weight: 900;
   font-size: 9vw;
-  left: 0;
+  left: 1%;
 }
 
 .indicator ul i {
@@ -642,7 +646,7 @@ h2 a:hover {
   }
 
   nav ul li {
-    font-size: 120px;
+    font-size: 8vw;
     width: 100%;
   }
 
@@ -767,7 +771,7 @@ h2 a:hover {
 
   #pearl_label,
   #cs_label {
-    font-size: 15vw;
+    font-size: 15vmin;
   }
 }
 

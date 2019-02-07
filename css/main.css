@@ -876,4 +876,8 @@ h2 a:hover {
     margin-top: 1.2vw;
     font-size: 3vmin;
   }
+
+  .box img:nth-child(1) {
+    margin-top: 17vh;
+  }
 }

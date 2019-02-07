@@ -281,10 +281,9 @@ nav ul li {
   z-index: 1;
   letter-spacing: 5px;
   list-style-type: none;
-  bottom: 18%;
+  bottom: 0;
   position: fixed;
   width: auto;
-  height: 30px;
   font-weight: 900;
   font-size: 9vw;
   left: 0;
@@ -644,8 +643,6 @@ h2 a:hover {
 
   nav ul li {
     font-size: 120px;
-    bottom: 12%;
-    text-align: center;
     width: 100%;
   }
 
@@ -760,55 +757,21 @@ h2 a:hover {
     width: 8%;
   }
 
-  .tag h1 {
-    font-size: 4vw;
-    right: -65%;
-  }
-
   nav ul li {
-    font-size: 70px;
-    bottom: 11%;
+    font-size: 75px;
+    left: 4%;
+    bottom: 2%;
+    letter-spacing: 2.5px;
+    line-height: 1;
   }
 
-  .box img:nth-child(1) {
-    height: auto;
-    width: 80vw;
-    height: 60vh;
-    left: 0;
-  }
-
-  #container .box {
-    width: 120%;
-    margin: 0 7vw;
+  #pearl_label,
+  #cs_label {
+    font-size: 13vw;
   }
 }
-/* 
+
 @media only screen and (max-width: 1025px) and (orientation: landscape) {
-  .box img:nth-child(1) {
-    width: 65vw;
-    height: 50vh;
-    margin-top: 0vh;
-    left: 0;
-  }
-
-  #projects {
-    padding-left: 20vw;
-  }
-
-  #container .box {
-    width: 75vw;
-  }
-
-  .tag h1 {
-    font-size: 1.5vw;
-    top: 31%;
-    right: -310%;
-  }
-
-  nav ul li {
-    bottom: 15%;
-  }
-
   .background h1 {
     margin-top: -10vh;
   }
@@ -822,7 +785,7 @@ h2 a:hover {
   .footerimage h1 {
     font-size: 11vw;
   }
-} */
+}
 
 @media only screen and (max-width: 500px) {
   .bio h1 {
@@ -852,6 +815,23 @@ h2 a:hover {
 
   .nav-content a {
     padding: 1px;
+  }
+
+  #container .box {
+    width: 75vw;
+  }
+
+  .box img:nth-child(1) {
+    margin-top: 23vh;
+    width: 60vw;
+  }
+
+  .box img:nth-child(2) {
+    display: none;
+  }
+
+  .tag h1 {
+    font-size: 3vw;
   }
 }
 

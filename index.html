@@ -358,10 +358,7 @@
       });
 
       $(document).ready(function() {
-        if (
-          $(window).width() < 1024 &&
-          window.innerHeight > window.innerWidth
-        ) {
+        if ($(window).width() < 500 && window.innerHeight > window.innerWidth) {
           $(".stanfordbg").attr("src", "/img/stanford_mobile.jpg");
           $(".ihepbg").attr("src", "/img/ihep_mobile.jpg");
           $(".nwfbg").attr("src", "/img/nwf_mobile.jpg");

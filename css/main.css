@@ -649,35 +649,6 @@ h2 a:hover {
     width: 100%;
   }
 
-  .tag h1 {
-    font-size: 3.5vw;
-    top: 31%;
-    right: -210%;
-  }
-
-  #projects {
-    width: 80vw;
-    padding-left: 50vw;
-    margin: 0;
-  }
-
-  #container .box {
-    width: 100%;
-    margin: 0 7vw;
-  }
-
-  #container .box > div {
-    left: 0;
-  }
-
-  .box img:nth-child(1) {
-    margin-top: 15vh;
-    height: auto;
-    width: 60vw;
-    height: 60vh;
-    left: 0;
-  }
-
   .indicator {
     display: none;
   }
@@ -811,7 +782,7 @@ h2 a:hover {
     margin: 0 7vw;
   }
 }
-
+/* 
 @media only screen and (max-width: 1025px) and (orientation: landscape) {
   .box img:nth-child(1) {
     width: 65vw;
@@ -851,7 +822,7 @@ h2 a:hover {
   .footerimage h1 {
     font-size: 11vw;
   }
-}
+} */
 
 @media only screen and (max-width: 500px) {
   .bio h1 {

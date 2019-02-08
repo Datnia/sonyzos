@@ -880,4 +880,8 @@ h2 a:hover {
   .box img:nth-child(1) {
     margin-top: 17vh;
   }
+
+  nav ul li {
+    font-size: 15vh;
+  }
 }

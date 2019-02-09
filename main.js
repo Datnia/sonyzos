@@ -33,6 +33,12 @@ $(document).ready(function() {
   }
 });
 
+$(document).ready(function() {
+  if ($(window).width() < 900) {
+    window.scrollTo(0, 1);
+  }
+});
+
 function openNav() {
   if ($(window).width() <= 825) {
     document.getElementById("nav").style.height = "100%";
@@ -116,3 +122,9 @@ function showSlides(n) {
 
   slides[slideIndex - 1].style.display = "block";
 }
+
+$(document).ready(function() {
+  if ($(window).width() < 900) {
+    window.scrollTo(0, 1);
+  }
+});

@@ -1,5 +1,6 @@
 html,
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: "Muli", sans-serif;
   display: block;
@@ -654,6 +655,10 @@ h2 a:hover {
     display: none;
   }
 
+  .box img:nth-child(2) {
+    display: none;
+  }
+
   .background h1 {
     letter-spacing: 1.2px;
     padding: 0;
@@ -828,10 +833,6 @@ h2 a:hover {
   .box img:nth-child(1) {
     margin-top: 23vh;
     width: 60vw;
-  }
-
-  .box img:nth-child(2) {
-    display: none;
   }
 
   .tag h1 {

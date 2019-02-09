@@ -2,6 +2,37 @@ AOS.init();
 
 var rellax = new Rellax(".rellax");
 
+$(document).ready(function() {
+  var is_IE = /*@cc_on!@*/ false || !!document.documentMode;
+  var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  if (is_IE || is_safari) {
+    $(".bg").click(function() {
+      $("#container, nav ul li").addClass("fadeOut");
+    });
+    $(".background").css("animation", "fadein 1s");
+  } else {
+    $(".bg").click(function() {
+      $(this)[0].scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+      });
+    });
+
+    $(".bg").click(function() {
+      var x = this;
+      if ($(window).width() > 1224) {
+        setTimeout(function() {
+          $(x).addClass("fullscreen");
+        }, 600);
+      } else {
+        setTimeout(function() {
+          $("html").fadeOut(200);
+        }, 400);
+      }
+    });
+  }
+});
+
 function openNav() {
   if ($(window).width() <= 825) {
     document.getElementById("nav").style.height = "100%";

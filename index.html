@@ -236,6 +236,7 @@
 
     <script>
       window.location = "#projects";
+
       $("#container").on("scroll", function() {
         $(".box").each(function(i) {
           if ($(this).offset().left <= $(window).width() * 0.5) {
@@ -258,19 +259,6 @@
         });
       });
 
-      $(".bg").click(function() {
-        var x = this;
-        if ($(window).width() > 1224) {
-          setTimeout(function() {
-            $(x).addClass("fullscreen");
-          }, 600);
-        } else {
-          setTimeout(function() {
-            $("html").fadeOut(200);
-          }, 400);
-        }
-      });
-
       $("a").click(function(e) {
         e.preventDefault();
         var goTo = this.getAttribute("href");
@@ -284,13 +272,6 @@
         $("nav, .indicator, .tag").addClass("hidden");
         $(".focus").hide();
         $(this).css("opacity", "1");
-      });
-
-      $(".bg").click(function() {
-        $(this)[0].scrollIntoView({
-          behavior: "smooth",
-          block: "center"
-        });
       });
 
       $(".bg, .focus")

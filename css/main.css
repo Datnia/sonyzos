@@ -345,9 +345,10 @@ nav ul li {
   transition: 0.3s;
 }
 
-.remove {
+.fadeOut {
+  visibility: hidden;
   opacity: 0;
-  transition: 0.1s;
+  transition: visibility 0s 0.3s, opacity 0.3s linear;
 }
 
 .navItem {

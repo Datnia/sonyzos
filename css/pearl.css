@@ -345,3 +345,9 @@ h2 a {
     margin-top: -10vh;
   }
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .brandingsquare {
+    display: none;
+  }
+}

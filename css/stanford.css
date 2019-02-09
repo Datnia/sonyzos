@@ -190,7 +190,6 @@ p {
   z-index: 0;
   margin-top: 1550px;
   right: 18%;
-  display: inline-block;
   position: absolute;
   height: 40vw;
   width: 39vw;
@@ -346,5 +345,11 @@ p {
 @media only screen and (max-width: 1025px) and (orientation: landscape) {
   .background h1 {
     font-size: 16vw;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .tabletsquare {
+    display: none;
   }
 }

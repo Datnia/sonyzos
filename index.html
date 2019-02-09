@@ -45,192 +45,199 @@
     </style>
   </head>
   <body>
-    <div class="preloader">
-      <div class="loading-page">
-        <div class="counter"><h1>0</h1></div>
+    <div class="dragscroll">
+      <div class="preloader">
+        <div class="loading-page">
+          <div class="counter"><h1>0</h1></div>
+        </div>
+      </div>
+      <header>
+        <div class="logo"><a href="index.html">sonıa.</a></div>
+        <div class="menu" onclick="openNav()">info</div>
+      </header>
+
+      <div id="nav" class="nav-overlay">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeNav()"
+          >x</a
+        >
+        <div class="intro">
+          <h1>want to work together or just say a quick hello?</h1>
+        </div>
+
+        <div class="buttonwrapper">
+          <a href="mailto:soniapolyzos22@gmail.com">
+            <div class="button">contact me</div></a
+          >
+        </div>
+        <div id="nav" class="nav-content">
+          <a href="https://www.instagram.com/sonyzos/" target="_blank"
+            >Instagram</a
+          >
+          <a
+            href="https://www.linkedin.com/in/sonia-polyzos-8b454a121"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://www.behance.net/soniapolyzos" target="_blank"
+            >Behance</a
+          >
+        </div>
+
+        <div class="bio">
+          <h1>
+            happy you're here, thought i'd tell you a bit more about myself.
+          </h1>
+          <p>
+            I’m Sonia, a graphic designer and illustrator living in the DMV
+            area. I graduated from the University of Maryland in 2016 with a BA
+            in Studio Art, concentrating in Graphic Design. Some previous
+            clients of mine include Stanford, National Wildlife Federation,
+            World Justice Project and many other wonderful non-profits and
+            people passionate about the world we live in today.<br /><br />
+            Currently I’m working as a contractor and freelancer. I’m looking
+            for remote work opportunities that cover a wide array of design work
+            including: UX/UI, editorial, print and product design.
+            Collaborating, starting new projects, or just a simple conversation
+            are some hobbies of mine, so hit me up and let’s talk! If we’re in
+            the same area, let’s sit down and have a cup of coffee.
+          </p>
+        </div>
+        <footer>
+          &copy 2019 |
+          <a href="http://datnguyen.io" target="_blank">
+            Coded by <font color="#01b435">dat</font>nguyen❤️
+          </a>
+        </footer>
+      </div>
+      <nav>
+        <ul>
+          <li
+            class="navItem active rellax"
+            id="stanford_label"
+            style="color: #bfe6d4"
+          >
+            stanford
+          </li>
+          <li class="navItem" id="ihep_label" style="color: #ffd3ac">ihep</li>
+          <li class="navItem" id="nwf_label" style="color: #abf293">nwf</li>
+          <li class="navItem" id="pearl_label" style="color: #f5e964">
+            pearl contracting
+          </li>
+          <li class="navItem" id="masonry_label" style="color: #fcd361">
+            masonry
+          </li>
+          <li class="navItem" id="cs_label" style="color: #9fe6f3;">
+            capitol standard
+          </li>
+        </ul>
+      </nav>
+      <div class="navbar"></div>
+      <div class="indicator">
+        <ul>
+          <li><a href="#stanford" class="indicator focus">01</a></li>
+          <li style="top: 42.5%"><a href="#ihep" class="indicator">02</a></li>
+          <li style="top: 47%"><a href="#nwf" class="indicator">03</a></li>
+          <li style="top: 51.5%"><a href="#pearl" class="indicator">04</a></li>
+          <li style="top: 56%"><a href="#masonry" class="indicator">05</a></li>
+          <li style="top: 60.5%"><a href="#cs" class="indicator">06</a></li>
+        </ul>
+      </div>
+      <div id="container">
+        <div id="projects">
+          <div class="box one" id="stanford">
+            <div class="wrapper">
+              <a href="stanford.html">
+                <img
+                  src="/img/stanford_banner.jpg"
+                  class="stanfordbg bg"
+                  id="stanford_label"
+                />
+                <img
+                  src="/img/stanfordfocus.png"
+                  id="stanford_label"
+                  class="standfordfocus focus"
+                />
+              </a>
+              <div class="tag"><h1>illustration + web, 2017-2018</h1></div>
+            </div>
+          </div>
+
+          <div class="box two" id="ihep">
+            <div class="wrapper">
+              <a href="ihep.html">
+                <img class="ihepbg bg" src="/img/banner.png" id="ihep_label" />
+                <img
+                  class="ihepfocus focus"
+                  src="/img/ihepfocus.png"
+                  id="ihep_label"
+                />
+              </a>
+              <div class="tag"><h1>branding, 2018</h1></div>
+            </div>
+          </div>
+          <div class="box three" id="nwf">
+            <div>
+              <a href="nwf.html">
+                <img src="/img/nwfbanner.png" class="nwfbg bg" id="nwf_label" />
+                <img
+                  class="nwffocus focus"
+                  src="/img/nwffocus.png"
+                  id="nwf_label"
+                />
+              </a>
+              <div class="tag"><h1>print + web, 2016-2018</h1></div>
+            </div>
+          </div>
+          <div class="box four" id="pearl">
+            <div>
+              <a href="pearl.html">
+                <img
+                  src="/img/pearl_background.jpg"
+                  class="pearlbg bg"
+                  id="pearl_label"
+                />
+                <img
+                  src="/img/pearlfocus.png"
+                  class="pearlfocus focus"
+                  id="pearl_label"
+                />
+              </a>
+              <div class="tag"><h1>branding + web, 2018</h1></div>
+            </div>
+          </div>
+          <div class="box five" id="masonry">
+            <div>
+              <a href="masonry.html">
+                <img
+                  src="/img/masonry_banner.jpg"
+                  class="masonrybg bg"
+                  id="masonry_label"
+                />
+                <img
+                  class="masonryfocus focus"
+                  src="/img/masonryfocus.png"
+                  id="masonry_label"
+                />
+              </a>
+              <div class="tag"><h1>print + branding, 2018</h1></div>
+            </div>
+          </div>
+          <div class="box six" id="cs">
+            <div>
+              <a href="cs.html">
+                <img src="/img/cs_banner.jpg" class="csbg bg" id="cs_label" />
+                <img
+                  src="/img/csfocus.png"
+                  class="csfocus focus"
+                  id="cs_label"
+                />
+              </a>
+              <div class="tag"><h1>illustration, 2016</h1></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <header>
-      <div class="logo"><a href="index.html">sonıa.</a></div>
-      <div class="menu" onclick="openNav()">info</div>
-    </header>
-
-    <div id="nav" class="nav-overlay">
-      <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">x</a>
-      <div class="intro">
-        <h1>want to work together or just say a quick hello?</h1>
-      </div>
-
-      <div class="buttonwrapper">
-        <a href="mailto:soniapolyzos22@gmail.com">
-          <div class="button">contact me</div></a
-        >
-      </div>
-      <div id="nav" class="nav-content">
-        <a href="https://www.instagram.com/sonyzos/" target="_blank"
-          >Instagram</a
-        >
-        <a
-          href="https://www.linkedin.com/in/sonia-polyzos-8b454a121"
-          target="_blank"
-          >LinkedIn</a
-        >
-        <a href="https://www.behance.net/soniapolyzos" target="_blank"
-          >Behance</a
-        >
-      </div>
-
-      <div class="bio">
-        <h1>
-          happy you're here, thought i'd tell you a bit more about myself.
-        </h1>
-        <p>
-          I’m Sonia, a graphic designer and illustrator living in the DMV area.
-          I graduated from the University of Maryland in 2016 with a BA in
-          Studio Art, concentrating in Graphic Design. Some previous clients of
-          mine include Stanford, National Wildlife Federation, World Justice
-          Project and many other wonderful non-profits and people passionate
-          about the world we live in today.<br /><br />
-          Currently I’m working as a contractor and freelancer. I’m looking for
-          remote work opportunities that cover a wide array of design work
-          including: UX/UI, editorial, print and product design. Collaborating,
-          starting new projects, or just a simple conversation are some hobbies
-          of mine, so hit me up and let’s talk! If we’re in the same area, let’s
-          sit down and have a cup of coffee.
-        </p>
-      </div>
-      <footer>
-        &copy 2019 |
-        <a href="http://datnguyen.io" target="_blank">
-          Coded by <font color="#01b435">dat</font>nguyen❤️
-        </a>
-      </footer>
-    </div>
-    <nav>
-      <ul>
-        <li
-          class="navItem active rellax"
-          id="stanford_label"
-          style="color: #bfe6d4"
-        >
-          stanford
-        </li>
-        <li class="navItem" id="ihep_label" style="color: #ffd3ac">ihep</li>
-        <li class="navItem" id="nwf_label" style="color: #abf293">nwf</li>
-        <li class="navItem" id="pearl_label" style="color: #f5e964">
-          pearl contracting
-        </li>
-        <li class="navItem" id="masonry_label" style="color: #fcd361">
-          masonry
-        </li>
-        <li class="navItem" id="cs_label" style="color: #9fe6f3;">
-          capitol standard
-        </li>
-      </ul>
-    </nav>
-    <div class="navbar"></div>
-    <div class="indicator">
-      <ul>
-        <li><a href="#stanford" class="indicator focus">01</a></li>
-        <li style="top: 42.5%"><a href="#ihep" class="indicator">02</a></li>
-        <li style="top: 47%"><a href="#nwf" class="indicator">03</a></li>
-        <li style="top: 51.5%"><a href="#pearl" class="indicator">04</a></li>
-        <li style="top: 56%"><a href="#masonry" class="indicator">05</a></li>
-        <li style="top: 60.5%"><a href="#cs" class="indicator">06</a></li>
-      </ul>
-    </div>
-    <div id="container" class="dragscroll">
-      <div id="projects">
-        <div class="box one" id="stanford">
-          <div class="wrapper">
-            <a href="stanford.html">
-              <img
-                src="/img/stanford_banner.jpg"
-                class="stanfordbg bg"
-                id="stanford_label"
-              />
-              <img
-                src="/img/stanfordfocus.png"
-                id="stanford_label"
-                class="standfordfocus focus"
-              />
-            </a>
-            <div class="tag"><h1>illustration + web, 2017-2018</h1></div>
-          </div>
-        </div>
-
-        <div class="box two" id="ihep">
-          <div class="wrapper">
-            <a href="ihep.html">
-              <img class="ihepbg bg" src="/img/banner.png" id="ihep_label" />
-              <img
-                class="ihepfocus focus"
-                src="/img/ihepfocus.png"
-                id="ihep_label"
-              />
-            </a>
-            <div class="tag"><h1>branding, 2018</h1></div>
-          </div>
-        </div>
-        <div class="box three" id="nwf">
-          <div>
-            <a href="nwf.html">
-              <img src="/img/nwfbanner.png" class="nwfbg bg" id="nwf_label" />
-              <img
-                class="nwffocus focus"
-                src="/img/nwffocus.png"
-                id="nwf_label"
-              />
-            </a>
-            <div class="tag"><h1>print + web, 2016-2018</h1></div>
-          </div>
-        </div>
-        <div class="box four" id="pearl">
-          <div>
-            <a href="pearl.html">
-              <img
-                src="/img/pearl_background.jpg"
-                class="pearlbg bg"
-                id="pearl_label"
-              />
-              <img
-                src="/img/pearlfocus.png"
-                class="pearlfocus focus"
-                id="pearl_label"
-              />
-            </a>
-            <div class="tag"><h1>branding + web, 2018</h1></div>
-          </div>
-        </div>
-        <div class="box five" id="masonry">
-          <div>
-            <a href="masonry.html">
-              <img
-                src="/img/masonry_banner.jpg"
-                class="masonrybg bg"
-                id="masonry_label"
-              />
-              <img
-                class="masonryfocus focus"
-                src="/img/masonryfocus.png"
-                id="masonry_label"
-              />
-            </a>
-            <div class="tag"><h1>print + branding, 2018</h1></div>
-          </div>
-        </div>
-        <div class="box six" id="cs">
-          <div>
-            <a href="cs.html">
-              <img src="/img/cs_banner.jpg" class="csbg bg" id="cs_label" />
-              <img src="/img/csfocus.png" class="csfocus focus" id="cs_label" />
-            </a>
-            <div class="tag"><h1>illustration, 2016</h1></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <script src="dragscroll.js"></script>
     <script src="main.js"></script>
 
@@ -357,6 +364,17 @@
           });
         }
       });
+
+      window.onorientationchange = function() {
+        var orientation = window.orientation;
+        switch (orientation) {
+          case 0:
+          case 90:
+          case -90:
+            window.location.reload();
+            break;
+        }
+      };
     </script>
   </body>
 </html>

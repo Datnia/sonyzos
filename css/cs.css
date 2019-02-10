@@ -249,20 +249,6 @@ h2 a {
     padding-top: 5vw;
   }
 
-  .cslaptoptext {
-    padding: 0;
-    width: 80%;
-  }
-
-  .cslaptoptext h1 {
-    font-size: 5.5vmin;
-  }
-
-  .cslaptoptext p {
-    font-size: 3vmin;
-    margin-top: -1vh;
-  }
-
   .csdisplay {
     background: url(/img/csmobile.jpg) no-repeat;
     height: 110vw;
@@ -275,23 +261,6 @@ h2 a {
   .csbreak {
     height: 50vh;
     background-position: 50%;
-  }
-
-  .cstext {
-    width: 80%;
-    margin: 0 auto;
-    display: block;
-    right: unset;
-    position: relative;
-  }
-
-  .cstext h1 {
-    font-size: 5.5vmin;
-  }
-
-  .cstext p {
-    margin-top: -1vh;
-    font-size: 3vmin;
   }
 
   .csphoneimg {
@@ -319,24 +288,8 @@ h2 a {
     width: 85%;
   }
 
-  .csportrait .text {
-    position: relative;
-    width: 80%;
-    margin: 0 auto;
-    padding: 5vh 0;
-  }
-
   .csportrait img {
     width: 85%;
-  }
-
-  .csportrait .text h1 {
-    font-size: 5.5vmin;
-  }
-
-  .csportrait .text p {
-    margin-top: -1vh;
-    font-size: 3vmin;
   }
 
   .footerimage {

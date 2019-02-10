@@ -273,14 +273,6 @@ h2 a {
     margin: 15vw 0;
   }
 
-  .pearltext h1 {
-    font-size: 5.5vmin;
-  }
-
-  .pearltext p {
-    font-size: 3vmin;
-  }
-
   .brandingsquare {
     position: absolute;
     width: 60%;
@@ -290,24 +282,9 @@ h2 a {
     right: 0;
   }
 
-  .pearlbranding .text {
-    display: block;
-    width: 80%;
-    position: relative;
-    right: unset;
-    margin: 0 auto;
-    order: 1;
-  }
-
   .pearlbreak {
     height: 50vh;
     background-position: 64%;
-  }
-
-  .pearlbranding {
-    margin-top: 10vh;
-    display: flex;
-    flex-direction: column;
   }
 
   .pearlbranding .card {
@@ -323,14 +300,6 @@ h2 a {
     width: 80%;
     margin: 0 auto;
     display: block;
-  }
-
-  .pearlbranding .text h1 {
-    font-size: 5.5vmin;
-  }
-
-  .pearlbranding .text p {
-    font-size: 3vmin;
   }
 
   .footerimage {

@@ -251,19 +251,6 @@ p {
     margin-top: -11vmax;
   }
 
-  .reviewtext {
-    width: 80%;
-    margin-top: 10vw;
-  }
-
-  .reviewtext h1 {
-    font-size: 5.5vmin;
-  }
-
-  .reviewtext p {
-    font-size: 3vmin;
-  }
-
   .stanfordbreak {
     background-position: 25%;
     height: 50vh;
@@ -298,24 +285,6 @@ p {
     margin: 1300px auto 0;
 
     text-align: center;
-  }
-
-  .tablettext {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    padding: 5vw 0;
-    left: unset;
-  }
-
-  .tablettext h1 {
-    font-size: 5.5vmin;
-  }
-
-  .tablettext p {
-    display: block;
-    font-size: 3vmin;
   }
 
   .stanfordillustrations {

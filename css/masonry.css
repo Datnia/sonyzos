@@ -241,23 +241,6 @@ p {
     display: block;
   }
 
-  .takeawaytext {
-    order: 2;
-    width: 80%;
-    position: relative;
-    display: block;
-    left: unset;
-    margin: 0 auto;
-  }
-
-  .takeawaytext h1 {
-    font-size: 5.5vmin;
-  }
-
-  .takeawaytext p {
-    font-size: 3vmin;
-  }
-
   .footerimage {
     background: url(/img/masonry_footer.jpg) no-repeat !important;
     background-position: 60% !important;

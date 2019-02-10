@@ -290,21 +290,6 @@ p {
     width: 75%;
   }
 
-  .cobranding-text {
-    width: 80%;
-    display: block;
-    left: unset;
-    margin: 0 auto;
-  }
-
-  .cobranding-text h1 {
-    font-size: 5.5vmin;
-  }
-
-  .cobranding-text p {
-    font-size: 3vmin;
-  }
-
   .nwfsquare {
     z-index: -1;
     margin-top: 1740px;
@@ -319,28 +304,11 @@ p {
     padding: 0;
   }
 
-  .wild .wildtext {
-    margin-top: 7vh;
-    display: block;
-    width: 80%;
-    left: unset;
-    margin: 0 auto;
-    top: 0;
-  }
-
-  .wild .wildtext h1 {
-    font-size: 5.5vmin;
-  }
-
   .wild .wildwrap {
     width: 65%;
     left: unset;
     margin: 0 auto;
     display: block;
-  }
-
-  .wild .wildtext p {
-    font-size: 3vmin;
   }
 
   .nwfbreak {
@@ -365,22 +333,6 @@ p {
     width: 65%;
     margin-top: 0;
     margin-left: 0;
-  }
-
-  .monarch .monarchtext {
-    position: relative;
-    width: 80%;
-    margin: 0 auto;
-    display: block;
-  }
-
-  .monarchtext h1 {
-    font-size: 5.5vmin;
-  }
-
-  .monarchtext p {
-    font-size: 3vmin;
-    margin-top: -1vh;
   }
 
   .footerimage {

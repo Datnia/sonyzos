@@ -263,23 +263,6 @@ p {
     width: 60%;
   }
 
-  .ihepreports {
-    display: block;
-    padding: 0;
-    position: relative;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 7vh;
-  }
-
-  .ihepreports h1 {
-    font-size: 5.5vmin;
-  }
-
-  .ihepreports p {
-    font-size: 3vmin;
-  }
-
   .ihepbreak {
     height: 50%;
     background-position: 50%;
@@ -316,25 +299,6 @@ p {
     width: 50%;
     height: 55vw;
     right: 26%;
-  }
-
-  .anniversary .text {
-    position: relative;
-    order: 2;
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .anniversary h1 {
-    font-size: 5.5vmin;
-  }
-
-  .anniversary p {
-    font-size: 3vmin;
-    width: 100%;
-    margin-top: -1vh;
   }
 
   .footerimage {

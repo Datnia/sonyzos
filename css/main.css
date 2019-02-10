@@ -685,6 +685,214 @@ h2 a:hover {
     width: 120%;
   }
 
+  .reviewtext {
+    width: 80%;
+    margin-top: 10vw;
+  }
+
+  .reviewtext h1 {
+    font-size: 5.5vmin;
+  }
+
+  .reviewtext p {
+    font-size: 3vmin;
+  }
+
+  .tablettext {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 5vw 0;
+    left: unset;
+  }
+
+  .tablettext h1 {
+    font-size: 5.5vmin;
+  }
+
+  .tablettext p {
+    display: block;
+    font-size: 3vmin;
+  }
+
+  .ihepreports {
+    display: block;
+    padding: 0;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 7vh;
+  }
+
+  .ihepreports h1 {
+    font-size: 5.5vmin;
+  }
+
+  .ihepreports p {
+    font-size: 3vmin;
+  }
+
+  .anniversary .text {
+    position: relative;
+    order: 2;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .anniversary h1 {
+    font-size: 5.5vmin;
+  }
+
+  .anniversary p {
+    font-size: 3vmin;
+    width: 100%;
+    margin-top: -1vh;
+  }
+
+  .cobranding-text {
+    width: 80%;
+    display: block;
+    left: unset;
+    margin: 0 auto;
+  }
+
+  .cobranding-text h1 {
+    font-size: 5.5vmin;
+  }
+
+  .cobranding-text p {
+    font-size: 3vmin;
+  }
+
+  .wild .wildtext {
+    margin-top: 7vh;
+    display: block;
+    width: 80%;
+    left: unset;
+    margin: 0 auto;
+    top: 0;
+  }
+
+  .wild .wildtext h1 {
+    font-size: 5.5vmin;
+  }
+
+  .wild .wildtext p {
+    font-size: 3vmin;
+  }
+
+  .monarch .monarchtext {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .monarchtext h1 {
+    font-size: 5.5vmin;
+  }
+
+  .monarchtext p {
+    font-size: 3vmin;
+    margin-top: -1vh;
+  }
+
+  .pearlbranding .text {
+    display: block;
+    width: 80%;
+    position: relative;
+    right: unset;
+    margin: 0 auto;
+    order: 1;
+  }
+
+  .pearltext h1 {
+    font-size: 5.5vmin;
+  }
+
+  .pearltext p {
+    font-size: 3vmin;
+  }
+
+  .pearlbranding {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .pearlbranding .text h1 {
+    font-size: 5.5vmin;
+  }
+
+  .pearlbranding .text p {
+    font-size: 3vmin;
+  }
+
+  .takeawaytext {
+    order: 2;
+    width: 80%;
+    position: relative;
+    display: block;
+    left: unset;
+    margin: 0 auto;
+  }
+
+  .takeawaytext h1 {
+    font-size: 5.5vmin;
+  }
+
+  .takeawaytext p {
+    font-size: 3vmin;
+  }
+
+  .cslaptoptext {
+    padding: 0;
+    width: 80%;
+  }
+
+  .cslaptoptext h1 {
+    font-size: 5.5vmin;
+  }
+
+  .cslaptoptext p {
+    font-size: 3vmin;
+    margin-top: -1vh;
+  }
+
+  .cstext {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    right: unset;
+    position: relative;
+  }
+
+  .cstext h1 {
+    font-size: 5.5vmin;
+  }
+
+  .cstext p {
+    margin-top: -1vh;
+    font-size: 3vmin;
+  }
+
+  .csportrait .text {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5vh 0;
+  }
+  .csportrait .text h1 {
+    font-size: 5.5vmin;
+  }
+
+  .csportrait .text p {
+    margin-top: -1vh;
+    font-size: 3vmin;
+  }
+
   hr {
     width: 8%;
   }

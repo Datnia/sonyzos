@@ -118,9 +118,3 @@ function showSlides(n) {
 
   slides[slideIndex - 1].style.display = "block";
 }
-
-$(document).ready(function() {
-  if ($(window).width() < 900) {
-    window.scrollTo(0, 1);
-  }
-});

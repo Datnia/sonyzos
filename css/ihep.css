@@ -58,7 +58,7 @@ body {
 p {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1.5px;
   line-height: 1.6;
 }
@@ -85,7 +85,6 @@ p {
   text-align: left;
   letter-spacing: 1px;
   padding-top: 10px;
-  font-weight: 300;
 }
 
 ::-webkit-scrollbar {
@@ -131,7 +130,6 @@ p {
 
 .ihepreports p {
   font-size: 1.05vw;
-  font-weight: 300;
   letter-spacing: 1.5px;
   line-height: 1.6;
   padding-bottom: 3vw;
@@ -167,7 +165,6 @@ p {
   width: 70%;
   margin-top: -0.5vw;
   font-size: 1.05vw;
-  font-weight: 300;
   letter-spacing: 1.5px;
   line-height: 1.6;
   font-family: "Montserrat", sans-serif;
@@ -267,6 +264,7 @@ p {
     height: 50%;
     background-position: 50%;
     width: 100%;
+    background-attachment: unset;
   }
 
   .anniversary .ihep-phone {
@@ -303,12 +301,16 @@ p {
 
   .footerimage {
     background: url(/img/ihepfooter.png) !important;
-    background-position: 50% 0 !important;
+    background-position: 54% 0 !important;
   }
 }
 
 @media screen and (orientation: landscape) and (max-width: 1025px) {
   .background h1 {
     font-size: 25vw;
+  }
+
+  .ihepbreak {
+    height: 100vh;
   }
 }

@@ -22,7 +22,7 @@ h1 {
 p {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1.5px;
   line-height: 1.6;
 }
@@ -98,7 +98,6 @@ p {
   text-align: left;
   letter-spacing: 1px;
   padding-top: 10px;
-  font-weight: 300;
 }
 
 .cobranding {
@@ -314,6 +313,7 @@ p {
   .nwfbreak {
     height: 50%;
     background-position: 50%;
+    background-attachment: unset;
   }
 
   .monarch {
@@ -337,7 +337,7 @@ p {
 
   .footerimage {
     background: url(/img/nwffooter.png) !important;
-    background-position: 40% 100% !important;
+    background-position: 40% 50% !important;
   }
 
   .footerimage h1 {
@@ -357,5 +357,9 @@ p {
   .footerimage h1 {
     font-size: 11vh !important;
     margin-top: -1vh;
+  }
+
+  .nwfbreak {
+    height: 100vh;
   }
 }

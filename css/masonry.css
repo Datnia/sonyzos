@@ -22,7 +22,7 @@ h1 {
 p {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1.5px;
   line-height: 1.6;
 }
@@ -97,7 +97,6 @@ p {
   text-align: left;
   letter-spacing: 1px;
   padding-top: 10px;
-  font-weight: 300;
 }
 
 .masonrybanner {
@@ -220,6 +219,7 @@ p {
   .masonrybreak {
     height: 50vh;
     background-position: 50%;
+    background-attachment: unset;
   }
 
   .takeaway {
@@ -258,6 +258,10 @@ p {
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
   .footerimage h1 {
     font-size: 11vh !important;
+  }
+
+  .masonrybreak {
+    height: 100vh;
   }
 }
 

@@ -15,7 +15,7 @@ h1 {
 p {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1.5px;
   line-height: 1.6;
 }
@@ -89,7 +89,6 @@ p {
   text-align: left;
   letter-spacing: 1px;
   padding-top: 10px;
-  font-weight: 300;
 }
 
 .pearlgif {
@@ -144,6 +143,7 @@ h2 a {
   text-decoration: none;
   font-size: 20px;
   color: #00033a;
+  letter-spacing: 1.5px;
 }
 
 .pearlbreak {
@@ -285,6 +285,7 @@ h2 a {
   .pearlbreak {
     height: 50vh;
     background-position: 64%;
+    background-attachment: unset;
   }
 
   .pearlbranding .card {
@@ -312,6 +313,10 @@ h2 a {
   .background h1 {
     font-size: 13vw;
     margin-top: -10vh;
+  }
+
+  .pearlbreak {
+    height: 100vh;
   }
 }
 

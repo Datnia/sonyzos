@@ -15,7 +15,7 @@ h1 {
 p {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1.5px;
   line-height: 1.6;
 }
@@ -90,7 +90,7 @@ p {
   text-align: left;
   letter-spacing: 1px;
   padding-top: 10px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .stanfordgifbg {
@@ -238,11 +238,11 @@ p {
   }
 
   .prev {
-    left: 3%;
+    left: 0%;
   }
 
   .next {
-    right: 3%;
+    right: 0%;
   }
 
   .prev,
@@ -283,7 +283,6 @@ p {
     left: 0;
     display: block;
     margin: 1300px auto 0;
-
     text-align: center;
   }
 
@@ -307,13 +306,17 @@ p {
 
 @media only screen and (max-width: 500px) {
   .tabletsquare {
-    display: none;
+    margin: 1200px auto 0;
   }
 }
 
 @media only screen and (max-width: 1025px) and (orientation: landscape) {
   .background h1 {
     font-size: 16vw;
+  }
+
+  .stanfordbreak {
+    height: 100vh;
   }
 }
 

@@ -293,7 +293,7 @@ nav ul li {
   letter-spacing: 5px;
   list-style-type: none;
   bottom: 0;
-  position: absolute;
+  position: fixed;
   font-weight: 900;
   font-size: 9vw;
   left: 1%;
@@ -920,6 +920,10 @@ h2 a:hover {
 }
 
 @media only screen and (max-width: 825px) {
+  #container {
+    position: fixed;
+  }
+
   .bio {
     width: 80%;
     margin: 7vw auto 0;
@@ -1015,9 +1019,6 @@ h2 a:hover {
 }
 
 @media only screen and (max-width: 500px) {
-  #container {
-    position: fixed;
-  }
   .bio h1 {
     font-size: 5.5vmin;
   }
@@ -1052,7 +1053,7 @@ h2 a:hover {
   }
 
   .box img:nth-child(1) {
-    margin-top: 13vh;
+    margin-top: 15vh;
     width: 60vw;
   }
 
@@ -1100,10 +1101,15 @@ h2 a:hover {
   }
 
   .box img:nth-child(1) {
-    margin-top: 17vh;
+    margin-top: 15vh;
   }
 
   nav ul li {
-    font-size: 15vh;
+    font-size: 10vw;
+  }
+
+  #pearl_label,
+  #cs_label {
+    font-size: 10vw;
   }
 }

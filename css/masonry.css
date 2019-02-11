@@ -243,7 +243,7 @@ p {
 
   .footerimage {
     background: url(/img/masonry_footer.jpg) no-repeat !important;
-    background-position: 60% !important;
+    background-position: 60% 20% !important;
   }
 
   .footerimage h1 {
@@ -262,6 +262,18 @@ p {
 
   .masonrybreak {
     height: 100vh;
+  }
+
+  .masonrybooth img:nth-child(1) {
+    width: 65%;
+  }
+
+  .masonrybooth img:nth-child(2) {
+    width: 50%;
+  }
+
+  .masonimg {
+    width: 50%;
   }
 }
 

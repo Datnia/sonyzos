@@ -21,7 +21,7 @@ header {
 header .logo {
   font-size: 22px;
   letter-spacing: 2px;
-  font-weight: 800;
+  font-weight: 900;
   position: fixed;
   z-index: 1;
   top: 10%;
@@ -35,7 +35,7 @@ header .menu {
   position: fixed;
   margin: 0 auto;
   color: #d2d2d7;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .logo a {
@@ -105,7 +105,11 @@ ul {
 
 .button a {
   text-decoration: none;
-  color: #00033a;
+}
+
+.nav-overlay .button:hover {
+  color: #d2d2d7;
+  transition: 0.3s;
 }
 
 .buttonwrapper {
@@ -118,10 +122,11 @@ ul {
   color: #00033a;
   text-align: center;
   padding: 0.7vw 1.5vw;
-  border: solid 2px;
+  border: #00033a solid 2px;
   width: 134.4px;
   font-weight: 900;
   letter-spacing: 1px;
+  transition: 0.3s;
 }
 
 .nav-content {
@@ -365,17 +370,17 @@ nav ul li {
 
 .box img:nth-child(1) {
   width: 45.5vw;
+  margin-top: 25vh;
   position: relative;
-  left: 0%;
   opacity: 0.8;
-  margin-top: 27vh;
+  left: 0;
 }
 
 .box img:nth-child(2) {
   width: 45.5vw;
+  left: 0;
   position: absolute;
-  left: 0%;
-  margin-top: 27vh;
+  margin-top: 25vh;
 }
 
 .tag h1 {
@@ -547,11 +552,9 @@ h2 a:hover {
 
 .bg.fullscreen {
   z-index: 5 !important;
-  display: block;
   width: 100vw !important;
   margin-top: 0 !important;
   left: -27.25vw !important;
-  object-fit: cover !important;
 }
 
 @keyframes loader {

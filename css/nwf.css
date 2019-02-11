@@ -281,12 +281,17 @@ p {
     display: block;
   }
 
-  .cobranding img {
+  .brandimg:nth-child(1),
+  .brandimg:nth-child(3) {
+    width: 80%;
+  }
+
+  .brandimg:nth-child(2) {
     width: 60% !important;
   }
 
   .wild .nwfoutdoors {
-    width: 75%;
+    width: 90%;
   }
 
   .nwfsquare {

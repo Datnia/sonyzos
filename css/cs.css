@@ -107,8 +107,13 @@ p {
   width: 50%;
 }
 
+.cslaptoptext h1 {
+  font-size: 2vw;
+}
+
 .cslaptoptext p {
   margin-top: -1vh;
+  font-size: 1.05vw;
 }
 
 .csdisplay {
@@ -294,11 +299,11 @@ h2 a {
 
   .footerimage {
     background: url(/img/cs_footer.jpg) !important;
-    background-position: 50% !important;
+    background-position: 50% 68% !important;
   }
 }
 
-@media only screen and (orientation: landscape) and (max-width: 1068px) {
+@media only screen and (orientation: landscape) and (max-width: 1028px) {
   .background h1 {
     font-size: 15vw;
   }
@@ -313,5 +318,9 @@ h2 a {
 
   .csbreak {
     height: 100vh;
+  }
+
+  .csphoneimg {
+    width: 40%;
   }
 }

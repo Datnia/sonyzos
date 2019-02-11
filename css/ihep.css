@@ -297,6 +297,7 @@ p {
     width: 50%;
     height: 55vw;
     right: 26%;
+    margin-top: 590px;
   }
 
   .footerimage {
@@ -312,5 +313,23 @@ p {
 
   .ihepbreak {
     height: 100vh;
+  }
+
+  .display2 {
+    background-size: 70%;
+    height: 105vw;
+  }
+
+  .display2 img:nth-child(1) {
+    width: 40%;
+  }
+
+  .anniversary .ihep-phone {
+    width: 55%;
+    height: 75vw;
+  }
+
+  .anniversary .phonesquare {
+    margin-top: 690px;
   }
 }

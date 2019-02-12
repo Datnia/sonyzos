@@ -645,7 +645,7 @@ h2 a:hover {
   }
 
   .close-btn {
-    top: 9%;
+    top: 1%;
   }
 
   footer {
@@ -958,6 +958,7 @@ h2 a:hover {
 
   .intro h1 {
     font-size: 3.5vmin;
+    display: none;
   }
 
   .buttonwrapper {
@@ -1046,7 +1047,7 @@ h2 a:hover {
   .nav-overlay .button {
     font-size: 1.5vh;
     width: 30vw;
-    padding: 2vw;
+    padding: 3vw;
   }
 
   .nav-content {

@@ -5,6 +5,7 @@ var rellax = new Rellax(".rellax");
 $(document).ready(function() {
   var is_IE = /*@cc_on!@*/ false || !!document.documentMode;
   var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
   if (is_IE || is_safari) {
     $(".bg").click(function() {
       $("#container, nav ul li").addClass("fadeOut");
@@ -17,10 +18,12 @@ $(document).ready(function() {
         block: "center"
       });
     });
-
     $(".bg").click(function() {
       var x = this;
-      if ($(window).width() > 1224) {
+      if (
+        $(window).width() > 1224 &&
+        $(window).width() / $(window).height() > 1.85
+      ) {
         setTimeout(function() {
           $(x).addClass("fullscreen");
         }, 600);

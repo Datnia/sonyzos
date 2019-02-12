@@ -126,7 +126,7 @@ ul {
   width: 134.4px;
   font-weight: 900;
   letter-spacing: 1px;
-  transition: 0.3s;
+  display: none;
 }
 
 .nav-content {
@@ -644,6 +644,10 @@ h2 a:hover {
     top: 5%;
   }
 
+  .close-btn {
+    top: 9%;
+  }
+
   footer {
     left: 0;
     right: 0;
@@ -655,6 +659,13 @@ h2 a:hover {
 
   nav ul li {
     font-size: 8vw;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .indicator {
@@ -1105,11 +1116,11 @@ h2 a:hover {
   }
 
   nav ul li {
-    font-size: 10vw;
+    font-size: 7vw;
   }
 
   #pearl_label,
   #cs_label {
-    font-size: 10vw;
+    font-size: 7vw;
   }
 }

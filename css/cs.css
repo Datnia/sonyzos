@@ -240,7 +240,7 @@ h2 a {
   .background h1 {
     font-size: 20vw;
     height: 100vh;
-    line-height: 1.2;
+    line-height: 1;
   }
 
   .scroll {
@@ -305,7 +305,7 @@ h2 a {
 
 @media only screen and (orientation: landscape) and (max-width: 1028px) {
   .background h1 {
-    font-size: 15vw;
+    font-size: 13vw;
   }
 
   .csphone {

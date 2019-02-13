@@ -633,6 +633,9 @@ h2 a:hover {
 }
 
 @media only screen and (max-width: 1025px) {
+  .nav-overlay {
+    background-color: red;
+  }
   header .logo,
   header .menu {
     top: 5%;
@@ -1000,6 +1003,7 @@ h2 a:hover {
     bottom: 2%;
     letter-spacing: 2.5px;
     line-height: 1;
+    position: fixed;
   }
 
   #pearl_label,

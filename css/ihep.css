@@ -221,7 +221,6 @@ p {
   .background {
     background-size: cover;
     background-position: 50%;
-    height: 100vh;
     text-align: center;
   }
 

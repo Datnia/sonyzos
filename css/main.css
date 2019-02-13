@@ -1008,6 +1008,10 @@ h2 a:hover {
   #cs_label {
     font-size: 15vmin;
   }
+
+  .tag h1 {
+    font-size: 3vmin;
+  }
 }
 
 @media only screen and (max-width: 1025px) and (orientation: landscape) {
@@ -1063,10 +1067,6 @@ h2 a:hover {
   .box img:nth-child(1) {
     margin-top: 15vh;
     width: 60vw;
-  }
-
-  .tag h1 {
-    font-size: 3vw;
   }
 
   .one {

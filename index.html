@@ -131,14 +131,15 @@
     <div class="navbar"></div>
     <div class="indicator">
       <ul>
-        <li><a href="#stanford" class="indicator focus">01</a></li>
-        <li style="top: 42.5%"><a href="#ihep" class="indicator">02</a></li>
-        <li style="top: 47%"><a href="#nwf" class="indicator">03</a></li>
-        <li style="top: 51.5%"><a href="#pearl" class="indicator">04</a></li>
-        <li style="top: 56%"><a href="#masonry" class="indicator">05</a></li>
-        <li style="top: 60.5%"><a href="#cs" class="indicator">06</a></li>
+        <li><a class="stanfordbg focus">01</a></li>
+        <li><a class="ihepbg">02</a></li>
+        <li><a class="nwfbg">03</a></li>
+        <li><a class="pearlbg">04</a></li>
+        <li><a class="masonrybg">05</a></li>
+        <li><a class="csbg">06</a></li>
       </ul>
     </div>
+    <div class="stripes"></div>
     <div id="container" class="dragscroll">
       <div id="projects">
         <div class="box one" id="stanford">
@@ -236,65 +237,6 @@
     <script>
       window.location = "#projects";
 
-      $("#container").on("scroll", function() {
-        $(".box").each(function(i) {
-          if ($(this).offset().left <= $(window).width() * 0.5) {
-            $("li.active").removeClass("active");
-            $("li")
-              .eq(i)
-              .addClass("active");
-          }
-        });
-      });
-
-      $("#container").on("scroll", function() {
-        $(".box").each(function(i) {
-          if ($(this).offset().left <= $(window).width() * 0.5) {
-            $("li a.focus").removeClass("focus");
-            $("li a")
-              .eq(i)
-              .addClass("focus");
-          }
-        });
-      });
-
-      $("a").click(function(e) {
-        e.preventDefault();
-        var goTo = this.getAttribute("href");
-
-        setTimeout(function() {
-          window.location = goTo;
-        }, 1100);
-      });
-
-      $(".bg").on("click", function() {
-        $("nav, .indicator, .tag").addClass("hidden");
-        $(".focus").hide();
-        $(this).css("opacity", "1");
-      });
-
-      $(".bg, .focus")
-        .on("mouseover", function() {
-          var w = this.id;
-          $("li.active").removeClass("active");
-          if ($("#" + w).hasClass("active")) {
-            return false;
-          } else {
-            $("#" + w).addClass("active");
-          }
-        })
-        .on("mouseleave", function() {
-          var w = this.id;
-          $(".box").each(function(i) {
-            if ($(this).offset().left <= $(window).width() * 0.5) {
-              $("li.active").removeClass("active");
-              $("li")
-                .eq(i)
-                .addClass("active");
-            }
-          });
-        });
-
       $(document).ready(function() {
         if (sessionStorage.getItem("dontLoad") == null) {
           window.location = "#cs";
@@ -356,6 +298,73 @@
           });
         }
       });
+
+      $("#container").on("scroll", function() {
+        $(".box").each(function(i) {
+          if ($(this).offset().left <= $(window).width() * 0.5) {
+            $("li.active").removeClass("active");
+            $("li")
+              .eq(i)
+              .addClass("active");
+          }
+        });
+      });
+
+      $("#container").on("scroll", function() {
+        $(".box").each(function(i) {
+          if ($(this).offset().left <= $(window).width() * 0.5) {
+            $("li a.focus").removeClass("focus");
+            $("li a")
+              .eq(i)
+              .addClass("focus");
+          }
+        });
+      });
+
+      $(".box a").click(function(e) {
+        e.preventDefault();
+        var goTo = this.getAttribute("href");
+
+        setTimeout(function() {
+          window.location = goTo;
+        }, 1100);
+      });
+
+      $(".bg").on("click", function() {
+        $("nav, .indicator, .tag").addClass("hidden");
+        $(".focus").hide();
+        $(this).css("opacity", "1");
+      });
+
+      $(".indicator ul li a").click(function() {
+        var i = this.className;
+        $("#container " + "." + i)[0].scrollIntoView({
+          behavior: "smooth",
+          block: "center"
+        });
+      });
+
+      $(".bg, .focus")
+        .on("mouseover", function() {
+          var w = this.id;
+          $("li.active").removeClass("active");
+          if ($("#" + w).hasClass("active")) {
+            return false;
+          } else {
+            $("#" + w).addClass("active");
+          }
+        })
+        .on("mouseleave", function() {
+          var w = this.id;
+          $(".box").each(function(i) {
+            if ($(this).offset().left <= $(window).width() * 0.5) {
+              $("li.active").removeClass("active");
+              $("li")
+                .eq(i)
+                .addClass("active");
+            }
+          });
+        });
 
       window.onorientationchange = function() {
         var orientation = window.orientation;

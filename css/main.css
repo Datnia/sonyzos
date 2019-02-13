@@ -72,10 +72,6 @@ header:hover {
   letter-spacing: 5px;
 }
 
-ul {
-  margin: 0;
-}
-
 #nav {
   display: flex;
   flex-direction: column;
@@ -209,6 +205,7 @@ footer {
 a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 footer {
@@ -299,39 +296,36 @@ nav ul li {
   left: 1%;
 }
 
-.indicator ul i {
-  z-index: 2;
-  position: absolute;
-  right: 6.6%;
-  top: 35%;
+ul {
+  margin: 0;
 }
 
-.indicator ul .fa-angle-down {
-  top: 62.5%;
-  right: 6.65%;
+.indicator ul {
+  position: absolute;
+  right: 6%;
+  z-index: 3;
+  margin-top: 30vh;
 }
 
 .indicator ul li {
   font-family: "Muli", sans-serif;
-  font-size: 16px;
-  position: absolute;
+  font-size: 14px;
+  position: relative;
   z-index: 3;
-  width: 30px;
   list-style-type: none;
   font-weight: 500;
-  right: 6%;
-  top: 38%;
-  background: transparent;
+  margin-top: 1.8vw;
+  text-align: center;
 }
 
 .indicator ul li a:hover {
   font-weight: 800;
-  transition: 0.3s;
 }
 
 .focus {
   font-weight: 900;
-  font-size: 16px;
+  font-size: 22px;
+  text-align: center;
   color: #00033a !important;
   pointer-events: none;
   -webkit-touch-callout: none;

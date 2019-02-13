@@ -5,6 +5,7 @@ body {
   font-family: "Muli", sans-serif;
   display: block;
   scrollbar-width: none;
+  -webkit-text-size-adjust: 100%;
 }
 
 h1 {
@@ -633,9 +634,6 @@ h2 a:hover {
 }
 
 @media only screen and (max-width: 1025px) {
-  .nav-overlay {
-    background-color: red;
-  }
   header .logo,
   header .menu {
     top: 5%;

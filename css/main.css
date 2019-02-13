@@ -719,7 +719,7 @@ h2 a:hover {
     margin: 0 auto;
     width: 80%;
     padding: 5vw 0;
-    left: unset;
+    left: auto;
   }
 
   .tablettext h1 {
@@ -770,7 +770,7 @@ h2 a:hover {
   .cobranding-text {
     width: 80%;
     display: block;
-    left: unset;
+    left: auto;
     margin: 0 auto;
   }
 
@@ -786,7 +786,7 @@ h2 a:hover {
     margin-top: 7vh;
     display: block;
     width: 80%;
-    left: unset;
+    left: auto;
     margin: 0 auto;
     top: 0;
   }
@@ -819,7 +819,7 @@ h2 a:hover {
     display: block;
     width: 80%;
     position: relative;
-    right: unset;
+    right: auto;
     margin: 0 auto;
     order: 1;
   }
@@ -850,7 +850,7 @@ h2 a:hover {
     width: 80%;
     position: relative;
     display: block;
-    left: unset;
+    left: auto;
     margin: 0 auto;
   }
 
@@ -880,7 +880,7 @@ h2 a:hover {
     width: 80%;
     margin: 0 auto;
     display: block;
-    right: unset;
+    right: auto;
     position: relative;
   }
 
@@ -946,7 +946,7 @@ h2 a:hover {
 
   .intro {
     width: 80%;
-    margin: 4vw auto 2vw;
+    margin: 0;
     order: 2;
   }
 
@@ -1098,7 +1098,7 @@ h2 a:hover {
   }
 
   .nav-content {
-    margin: -5.5vw 35vw 0 0;
+    margin: -5.5vw 30vw 0 0;
     font-size: 3vmin;
   }
   .nav-overlay .button {

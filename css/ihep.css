@@ -273,7 +273,7 @@ p {
     position: relative;
     width: 60vw;
     order: -2;
-    right: unset;
+    right: auto;
     margin: 0 auto;
   }
 
@@ -288,7 +288,7 @@ p {
     position: relative;
     width: 60%;
     margin: 0 auto;
-    left: unset;
+    left: auto;
     height: auto;
   }
 
@@ -331,5 +331,11 @@ p {
 
   .anniversary .phonesquare {
     margin-top: 690px;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .anniversary .phonesquare {
+    display: none;
   }
 }

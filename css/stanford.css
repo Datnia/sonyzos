@@ -265,7 +265,7 @@ p {
 
   .tabletimg {
     position: relative;
-    left: unset;
+    left: auto;
     display: block;
     width: 60vw;
     height: 75vw;

@@ -226,7 +226,7 @@ p {
     padding: 10vw 0;
     display: flex;
     flex-direction: column;
-    height: unset;
+    height: auto;
   }
 
   .masonrysquare {
@@ -236,8 +236,10 @@ p {
   .masonimg {
     position: relative;
     width: 70%;
-    right: unset;
+    right: auto;
     margin: 0 auto;
+    flex-shrink: 0;
+
     display: block;
   }
 

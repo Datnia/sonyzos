@@ -256,7 +256,7 @@ h2 a {
     width: 90%;
     position: relative;
     padding: 0;
-    left: unset;
+    left: auto;
     margin: 0 auto;
     display: block;
   }
@@ -269,7 +269,7 @@ h2 a {
   }
 
   .phonewrap {
-    height: unset;
+    height: auto;
     margin: 15vw 0;
   }
 
@@ -290,7 +290,9 @@ h2 a {
 
   .pearlbranding .card {
     width: 80%;
-    margin-left: 6vw;
+    margin: 0 auto;
+    display: block;
+    flex-shrink: 0;
   }
 
   .pcshirt {

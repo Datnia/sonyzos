@@ -245,11 +245,6 @@ p {
 }
 
 @media only screen and (max-width: 1024px) {
-  html,
-  body {
-    overflow-x: hidden !important;
-  }
-
   header {
     width: 100%;
   }
@@ -363,5 +358,11 @@ p {
 
   .nwfbreak {
     height: 100vh;
+  }
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  .nwfsquare {
+    display: none;
   }
 }

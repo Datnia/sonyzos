@@ -8,7 +8,7 @@ $(document).ready(function() {
 
   if (is_IE || is_safari) {
     $(".bg").click(function() {
-      $("#container, nav ul li").addClass("fadeOut");
+      $("#container, nav ul li ").addClass("fadeOut");
     });
     $(".background").css("animation", "fadein 1s");
   } else {

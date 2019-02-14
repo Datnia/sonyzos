@@ -8,6 +8,25 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+.stripes {
+  position: absolute;
+  margin-left: -7vw;
+}
+
+.stripes ul {
+  padding: 0;
+}
+
+.stripes ul li {
+  display: inline-block;
+  width: 16vw;
+  border-right: 1px solid #c7c7c7;
+  opacity: 0.3;
+  height: 100vh;
+  z-index: -1;
+  text-align: center;
+}
+
 h1 {
   line-height: 1.2;
 }
@@ -179,7 +198,11 @@ footer {
   background: #f1f1f1;
   z-index: 7;
   position: absolute;
-  height: 105%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   width: 100%;
 }
 
@@ -221,7 +244,7 @@ footer {
 
 #container .box {
   animation: fadein 1.5s;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
   width: 60vw;
   height: 100vh;
   display: inline-block;
@@ -243,7 +266,7 @@ footer {
   overflow-x: hidden;
   transform: rotate(270deg) translateX(-100%);
   transform-origin: top left;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
   position: absolute;
   width: 100vh;
   height: 100vw;
@@ -285,9 +308,9 @@ nav ul li {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  opacity: 0.2;
+  opacity: 0.4;
   font-family: "Muli", sans-serif;
-  z-index: 1;
+  z-index: 3000000;
   letter-spacing: 5px;
   list-style-type: none;
   bottom: 0;
@@ -366,7 +389,7 @@ ul {
   width: 45.5vw;
   margin-top: 25vh;
   position: relative;
-  opacity: 0.8;
+  opacity: 0.9;
   left: 0;
 }
 
@@ -375,6 +398,8 @@ ul {
   left: 0;
   position: absolute;
   margin-top: 25vh;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .tag h1 {
@@ -423,14 +448,7 @@ ul {
 }
 
 .box .standfordfocus {
-  position: absolute;
   opacity: 0;
-  transition: 0.7s;
-}
-
-.box .afpfocus {
-  opacity: 0;
-  position: absolute;
   transition: 0.7s;
 }
 
@@ -461,10 +479,6 @@ ul {
 }
 
 .box .standfordfocus:hover {
-  opacity: 1;
-}
-
-.box .afpfocus:hover {
   opacity: 1;
 }
 
@@ -1008,10 +1022,6 @@ h2 a:hover {
   #cs_label {
     font-size: 15vmin;
   }
-
-  .tag h1 {
-    font-size: 3vmin;
-  }
 }
 
 @media only screen and (max-width: 1025px) and (orientation: landscape) {
@@ -1042,6 +1052,10 @@ h2 a:hover {
   .intro h1 {
     font-size: 2.5vh;
     margin-bottom: 1vh;
+  }
+
+  .tag h1 {
+    font-size: 3vmin;
   }
 
   .nav-overlay .button {
@@ -1091,6 +1105,9 @@ h2 a:hover {
     margin-bottom: 1.5vw;
   }
 
+  .tag h1 {
+    font-size: 3vmin;
+  }
   .bio p {
     font-size: 10px;
   }
@@ -1119,5 +1136,11 @@ h2 a:hover {
   #pearl_label,
   #cs_label {
     font-size: 7vw;
+  }
+}
+
+@media (max-aspect-ratio: 11/6) {
+  .background {
+    animation: fadein 1s;
   }
 }

@@ -6,7 +6,7 @@ body {
 }
 
 .background {
-  background: url(/img/banner.png) no-repeat;
+  background: url(/img/ihep_banner.png) no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -92,7 +92,7 @@ p {
 }
 
 .display1 {
-  background: url(/img/ihepdisplay1.png) no-repeat 50% 50%;
+  background: url(/img/ihep_folder.png) no-repeat 50% 50%;
   background-size: 60vw;
   height: 50vw;
 }
@@ -104,7 +104,7 @@ p {
 .display2 {
   padding: 5vw 0;
   position: relative;
-  background: url(/img/ihepdisplay2.png) no-repeat 15%;
+  background: url(/img/ihep_booklet.png) no-repeat 15%;
   background-size: 55vw;
 }
 
@@ -195,7 +195,7 @@ p {
 }
 
 .footerimage:hover {
-  background: url(/img/ihepfooter.png) 50%;
+  background: url(/img/ihep_footer.png) 50%;
   cursor: pointer;
 }
 

@@ -453,7 +453,7 @@ ul {
   transition: 0.7s;
 }
 
-.box .standfordfocus {
+.box .stanfordfocus {
   opacity: 0;
   transition: 0.7s;
 }
@@ -484,7 +484,7 @@ ul {
   opacity: 1;
 }
 
-.box .standfordfocus:hover {
+.box .stanfordfocus:hover {
   opacity: 1;
 }
 
@@ -510,6 +510,8 @@ hr {
   height: 40vh;
   text-align: center;
   transition: 0.5s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .footertext {

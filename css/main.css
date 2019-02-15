@@ -314,7 +314,6 @@ nav ul li {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  opacity: 0.4;
   font-family: "Muli", sans-serif;
   letter-spacing: 5px;
   list-style-type: none;
@@ -323,6 +322,7 @@ nav ul li {
   font-weight: 900;
   font-size: 9vw;
   left: 1%;
+  z-index: 2;
 }
 
 ul {
@@ -388,7 +388,7 @@ ul {
 }
 
 .active {
-  opacity: 0.45;
+  opacity: 1;
 }
 
 .box img:nth-child(1) {
@@ -950,10 +950,6 @@ h2 a:hover {
     position: fixed;
   }
 
-  .stripes ul li {
-    width: 26vw;
-  }
-
   .bio {
     width: 80%;
     margin: 7vw auto 0;
@@ -1051,6 +1047,9 @@ h2 a:hover {
 }
 
 @media only screen and (max-width: 500px) {
+  .stripes ul li {
+    width: 37vw;
+  }
   .bio h1 {
     font-size: 5.5vmin;
   }
@@ -1107,6 +1106,9 @@ h2 a:hover {
 }
 
 @media only screen and (max-width: 850px) and (max-height: 500px) {
+  .stripes ul li {
+    width: 24vw;
+  }
   .bio {
     margin: 2vw auto 0;
   }

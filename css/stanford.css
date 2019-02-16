@@ -209,6 +209,8 @@ p {
 .footerimage:hover {
   background: url(/img/stanford_footer.jpg) 50%;
   cursor: pointer;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 @media only screen and (max-width: 1025px) {

@@ -8,6 +8,13 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+body:after {
+  display: none;
+  content: url(/img/stanford_footer.jpg) url(/img/ihep_footer.png)
+    url(/img/nwffooter.png) url(/img/pearl_footer.jpg)
+    url(/img/masonry_footer.jpg) url(/img/cs_footer.jpg);
+}
+
 .stripes {
   position: fixed;
   margin-left: -7vw;
@@ -512,6 +519,8 @@ hr {
   transition: 0.5s;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  transform: translate3D(0, 0, 0);
+  -webkit-transform: translate3D(0, 0, 0);
 }
 
 .footertext {

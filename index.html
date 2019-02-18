@@ -278,6 +278,17 @@
       });
 
       $(document).ready(function() {
+        var iOS =
+          /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        var iOS =
+          !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+
+        if (iOS) {
+          window.location = "#projects";
+        }
+      });
+
+      $(document).ready(function() {
         var counter = 0;
         var c = 0;
         if (sessionStorage.getItem("dontLoad") == null) {

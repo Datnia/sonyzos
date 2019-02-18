@@ -285,6 +285,7 @@ footer {
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
   scrollbar-width: none;
+  z-index: 3;
 }
 
 #projects {

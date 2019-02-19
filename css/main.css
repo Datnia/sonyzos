@@ -1,6 +1,6 @@
 html,
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   margin: 0;
   font-family: "Muli", sans-serif;
   display: block;
@@ -11,7 +11,7 @@ body {
 body:after {
   display: none;
   content: url(/img/stanford_footer.jpg) url(/img/ihep_footer.png)
-    url(/img/nwffooter.png) url(/img/pearl_footer.jpg)
+    url(/img/nwf_footer.png) url(/img/pearl_footer.jpg)
     url(/img/masonry_footer.jpg) url(/img/cs_footer.jpg);
 }
 

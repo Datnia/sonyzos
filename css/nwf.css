@@ -239,7 +239,7 @@ p {
 }
 
 .footerimage:hover {
-  background: url(/img/nwffooter.png) 50%;
+  background: url(/img/nwf_footer.png) 50%;
   cursor: pointer;
   line-height: 1.6;
 }

@@ -44,6 +44,7 @@ header {
   font-size: 20px;
   font-weight: 800;
   margin: 0 auto;
+  z-index: 14;
 }
 
 header .logo {
@@ -276,6 +277,7 @@ footer {
 #container {
   cursor: grab;
   overflow-y: scroll;
+  overflow-x: initial;
   transform: rotate(270deg) translateX(-100%);
   transform-origin: top left;
   background-color: rgba(255, 255, 255, 0);
@@ -285,7 +287,7 @@ footer {
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
   scrollbar-width: none;
-  z-index: 3;
+  z-index: 2;
 }
 
 #projects {
@@ -329,7 +331,7 @@ nav ul li {
   font-weight: 900;
   font-size: 9vw;
   left: 1%;
-  z-index: 2;
+  z-index: -1;
 }
 
 ul {

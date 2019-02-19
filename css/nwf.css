@@ -287,11 +287,12 @@ p {
   }
 
   .nwfsquare {
-    z-index: -1;
+    /* z-index: -1;
     margin-top: 1840px;
     width: 100%;
     height: 80vw;
-    right: unset;
+    right: unset; */
+    display: none;
   }
 
   .wild .nwfwrap {
@@ -333,7 +334,7 @@ p {
   }
 
   .footerimage {
-    background: url(/img/nwffooter.png) !important;
+    background: url(/img/nwf_footer.png) !important;
     background-position: 40% 50% !important;
   }
 

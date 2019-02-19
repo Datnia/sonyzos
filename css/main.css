@@ -1,6 +1,6 @@
 html,
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   margin: 0;
   font-family: "Muli", sans-serif;
   display: block;
@@ -44,7 +44,6 @@ header {
   font-size: 20px;
   font-weight: 800;
   margin: 0 auto;
-  z-index: 14;
 }
 
 header .logo {
@@ -52,19 +51,19 @@ header .logo {
   letter-spacing: 2px;
   font-weight: 900;
   position: fixed;
-  z-index: 1;
   top: 10%;
   left: 6%;
+  z-index: 5;
 }
 
 header .menu {
   top: 10%;
   right: 6%;
-  z-index: 3;
   position: fixed;
   margin: 0 auto;
   color: #d2d2d7;
   font-weight: 800;
+  z-index: 5;
 }
 
 .logo a {
@@ -287,7 +286,7 @@ footer {
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
   scrollbar-width: none;
-  z-index: 2;
+  z-index: 4;
 }
 
 #projects {
@@ -331,7 +330,7 @@ nav ul li {
   font-weight: 900;
   font-size: 9vw;
   left: 1%;
-  z-index: -1;
+  z-index: 3;
 }
 
 ul {

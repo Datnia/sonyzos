@@ -24,7 +24,6 @@
   var addEventListener = "add" + EventListener;
   var removeEventListener = "remove" + EventListener;
   var newScrollX, newScrollY;
-
   var dragged = [];
   var reset = function(i, el) {
     for (i = 0; i < dragged.length; ) {
@@ -34,8 +33,6 @@
       _window[removeEventListener](mouseup, el.mu, 0);
       _window[removeEventListener](mousemove, el.mm, 0);
     }
-
-    // cloning into array since HTMLCollection is updated dynamically
     dragged = [].slice.call(_document.getElementsByClassName("dragscroll"));
     for (i = 0; i < dragged.length; ) {
       (function(el, lastClientX, lastClientY, pushed, scroller, cont) {
@@ -49,13 +46,11 @@
               pushed = 1;
               lastClientX = e.clientX;
               lastClientY = e.clientY;
-
               e.preventDefault();
             }
           }),
           0
         );
-
         _window[addEventListener](
           mouseup,
           (cont.mu = function() {
@@ -63,7 +58,6 @@
           }),
           0
         );
-
         _window[addEventListener](
           mousemove,
           (cont.mm = function(e) {
@@ -83,12 +77,10 @@
       })(dragged[i++]);
     }
   };
-
   if (_document.readyState == "complete") {
     reset();
   } else {
     _window[addEventListener]("load", reset, 0);
   }
-
   exports.reset = reset;
 });
